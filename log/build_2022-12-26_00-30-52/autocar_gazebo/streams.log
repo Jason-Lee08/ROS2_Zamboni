@@ -1,0 +1,44 @@
+[0.209s] Invoking command in '/home/jason/Desktop/zam_ws/build/autocar_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/autocar_gazebo -- -j4 -l4
+[0.456s] Invoked command in '/home/jason/Desktop/zam_ws/build/autocar_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/autocar_gazebo -- -j4 -l4
+[0.710s] Invoking command in '/home/jason/Desktop/zam_ws/build/autocar_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/autocar_gazebo
+[0.748s] -- Install configuration: ""
+[0.753s] -- Execute custom install script
+[0.760s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/autocar.world
+[0.762s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/autocar_city.world
+[0.764s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/autocar_spawn.world
+[0.764s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/empty.world
+[0.769s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/hockey_rink.jpg
+[0.770s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/ice_rink.world
+[0.770s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/populated_road.world
+[0.773s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/road.world
+[0.775s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/temp.xml
+[0.780s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/meshes/bl_1.stl
+[0.786s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/meshes/br_1.stl
+[0.786s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/meshes/burger_base.dae
+[0.787s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/meshes/chassis_link.stl
+[0.789s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/meshes/fl_1.stl
+[0.795s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/meshes/fr_1.stl
+[0.796s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/meshes/hokuyo.dae
+[0.801s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/meshes/lds.dae
+[0.802s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/meshes/spoiler.stl
+[0.803s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/meshes/tire.dae
+[0.809s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/meshes/zamboni2.stl
+[0.810s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/meshes/zamboni_v2.stl
+[0.810s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/model.config
+[0.811s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/model.sdf
+[0.813s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/ament_index/resource_index/package_run_dependencies/autocar_gazebo
+[0.815s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/ament_index/resource_index/parent_prefix_path/autocar_gazebo
+[0.821s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/environment/ament_prefix_path.sh
+[0.821s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/environment/ament_prefix_path.dsv
+[0.821s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/environment/path.sh
+[0.825s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/environment/path.dsv
+[0.829s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/local_setup.bash
+[0.829s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/local_setup.sh
+[0.829s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/local_setup.zsh
+[0.830s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/local_setup.dsv
+[0.830s] -- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/package.dsv
+[0.885s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/ament_index/resource_index/packages/autocar_gazebo
+[0.885s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/cmake/autocar_gazeboConfig.cmake
+[0.886s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/cmake/autocar_gazeboConfig-version.cmake
+[0.886s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/package.xml
+[0.903s] Invoked command in '/home/jason/Desktop/zam_ws/build/autocar_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/autocar_gazebo

@@ -1,0 +1,25 @@
+[6.113s] Invoking command in '/home/jason/Desktop/zam_ws/build/keyboard_control': PYTHONPATH=/home/jason/Desktop/zam_ws/build/keyboard_control/prefix_override:/home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jason/Desktop/zam_ws/build/keyboard_control/build --no-deps install_data
+[7.073s] running develop
+[8.212s] running egg_info
+[8.212s] creating keyboard_control.egg-info
+[8.212s] writing keyboard_control.egg-info/PKG-INFO
+[8.213s] writing dependency_links to keyboard_control.egg-info/dependency_links.txt
+[8.213s] writing entry points to keyboard_control.egg-info/entry_points.txt
+[8.213s] writing requirements to keyboard_control.egg-info/requires.txt
+[8.213s] writing top-level names to keyboard_control.egg-info/top_level.txt
+[8.217s] writing manifest file 'keyboard_control.egg-info/SOURCES.txt'
+[8.219s] reading manifest file 'keyboard_control.egg-info/SOURCES.txt'
+[8.245s] writing manifest file 'keyboard_control.egg-info/SOURCES.txt'
+[8.451s] running build_ext
+[8.672s] Creating /home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages/site.py
+[8.694s] Creating /home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages/keyboard-control.egg-link (link to .)
+[8.694s] Installing twist_keyboard script to /home/jason/Desktop/zam_ws/install/keyboard_control/lib/keyboard_control
+[8.700s] 
+[8.700s] Installed /home/jason/Desktop/zam_ws/build/keyboard_control
+[8.701s] running install_data
+[8.702s] creating /home/jason/Desktop/zam_ws/install/keyboard_control/share/ament_index
+[8.703s] creating /home/jason/Desktop/zam_ws/install/keyboard_control/share/ament_index/resource_index
+[8.754s] creating /home/jason/Desktop/zam_ws/install/keyboard_control/share/ament_index/resource_index/packages
+[8.755s] copying resource/keyboard_control -> /home/jason/Desktop/zam_ws/install/keyboard_control/share/ament_index/resource_index/packages
+[8.755s] copying package.xml -> /home/jason/Desktop/zam_ws/install/keyboard_control/share/keyboard_control
+[8.990s] Invoked command in '/home/jason/Desktop/zam_ws/build/keyboard_control' returned '0': PYTHONPATH=/home/jason/Desktop/zam_ws/build/keyboard_control/prefix_override:/home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jason/Desktop/zam_ws/build/keyboard_control/build --no-deps install_data

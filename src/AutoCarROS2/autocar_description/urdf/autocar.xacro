@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <robot name="autocar" xmlns:xacro="http://www.ros.org/wiki/xacro">
-
+  <xacro:include filename="$(find autocar_description)/urdf/_d415.urdf.xacro" />
 
   <!-- RVIZ MATERIAL COLOUR -->
   <material name="silver">
@@ -56,6 +56,10 @@
       <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
     </inertial>
   </link>
+
+  <xacro:sensor_d415 parent="realsense_link">
+    <origin xyz="0 0 0" rpy="1.5708 -1.5708 0"/>
+  </xacro:sensor_d415>
 
   <link name="imu_link">
     <visual>

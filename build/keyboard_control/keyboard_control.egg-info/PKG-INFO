@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: keyboard-control
+Version: 0.0.1
+Summary: An improved robot-agnostic teleoperation node to convert keyboardcommands to Twist messages.
+Home-page: UNKNOWN
+Maintainer: jason
+Maintainer-email: jason.lee@meditrina-inc.com
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN

@@ -1,0 +1,138 @@
+[0.174s] Invoking command in '/home/jason/Desktop/zam_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/realsense2_camera_msgs -- -j4 -l4
+[0.883s] [  1%] Built target realsense2_camera_msgs__cpp
+[1.052s] [ 12%] Built target realsense2_camera_msgs__rosidl_generator_c
+[1.372s] [ 23%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp
+[1.724s] [ 34%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c
+[1.938s] [ 45%] Built target realsense2_camera_msgs__rosidl_typesupport_c
+[2.332s] [ 56%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[2.571s] [ 67%] Built target realsense2_camera_msgs__rosidl_typesupport_cpp
+[2.904s] [ 78%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c
+[3.187s] [ 78%] Built target realsense2_camera_msgs
+[3.389s] [ 80%] Built target realsense2_camera_msgs__py
+[3.502s] [ 89%] Built target realsense2_camera_msgs__python
+[3.627s] [ 92%] Built target realsense2_camera_msgs__rosidl_typesupport_c__pyext
+[3.800s] [ 96%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.908s] [100%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext
+[4.373s] Invoked command in '/home/jason/Desktop/zam_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/realsense2_camera_msgs -- -j4 -l4
+[6.087s] Invoking command in '/home/jason/Desktop/zam_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/realsense2_camera_msgs
+[6.198s] -- Install configuration: ""
+[6.201s] -- Execute custom install script
+[6.201s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/realsense2_camera_msgs
+[6.210s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__functions.h
+[6.211s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__struct.h
+[6.211s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__type_support.h
+[6.212s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__functions.h
+[6.212s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__struct.h
+[6.214s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__type_support.h
+[6.214s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__functions.h
+[6.214s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__struct.h
+[6.215s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__type_support.h
+[6.215s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/extrinsics.h
+[6.217s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/imu_info.h
+[6.220s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/metadata.h
+[6.221s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.221s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__functions.h
+[6.221s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__struct.h
+[6.222s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__type_support.h
+[6.227s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/device_info.h
+[6.233s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.sh
+[6.234s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.dsv
+[6.245s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h
+[6.246s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h
+[6.246s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h
+[6.261s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.261s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_c.h
+[6.261s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so
+[6.261s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+[6.261s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_cpp.hpp
+[6.261s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[6.264s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.264s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[6.264s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.265s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h
+[6.265s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_c.h
+[6.265s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h
+[6.265s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.266s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_c.h
+[6.268s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__builder.hpp
+[6.269s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__struct.hpp
+[6.269s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__traits.hpp
+[6.269s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__builder.hpp
+[6.269s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__struct.hpp
+[6.269s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__traits.hpp
+[6.279s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__builder.hpp
+[6.283s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__struct.hpp
+[6.283s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__traits.hpp
+[6.284s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/extrinsics.hpp
+[6.284s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/imu_info.hpp
+[6.284s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/metadata.hpp
+[6.284s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__builder.hpp
+[6.285s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__struct.hpp
+[6.285s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__traits.hpp
+[6.285s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/device_info.hpp
+[6.293s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp
+[6.303s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_cpp.hpp
+[6.303s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp
+[6.305s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_cpp.hpp
+[6.314s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.sh
+[6.315s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.dsv
+[6.315s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/__init__.py
+[6.316s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/msg/__init__.py
+[6.316s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/msg/_extrinsics.py
+[6.316s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/msg/_imu_info.py
+[6.317s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/msg/_metadata.py
+[6.318s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/srv/__init__.py
+[6.318s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/srv/_device_info.py
+[6.327s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[6.327s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[6.327s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[6.327s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__python.so
+[6.341s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.idl
+[6.343s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.idl
+[6.347s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.idl
+[6.347s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.idl
+[6.349s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.msg
+[6.350s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.msg
+[6.365s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.msg
+[6.366s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.srv
+[6.375s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo_Request.msg
+[6.375s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo_Response.msg
+[6.376s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/package_run_dependencies/realsense2_camera_msgs
+[6.377s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/parent_prefix_path/realsense2_camera_msgs
+[6.377s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.sh
+[6.378s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.dsv
+[6.384s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.sh
+[6.385s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.dsv
+[6.393s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.bash
+[6.394s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.sh
+[6.395s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.zsh
+[6.396s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.dsv
+[6.402s] -- Symlinking: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv
+[6.547s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/packages/realsense2_camera_msgs
+[6.547s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake-extras.cmake
+[6.548s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.549s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.549s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.551s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.551s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.555s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.555s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig.cmake
+[6.571s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig-version.cmake
+[6.572s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.xml
+[6.572s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_c.so
+[6.573s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so
+[6.579s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_c.so
+[6.618s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so
+[6.620s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_cpp.so
+[7.044s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_generator_cExport.cmake
+[7.051s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.051s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.052s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.060s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport.cmake
+[7.060s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.060s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_generator_cppExport.cmake
+[7.060s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.060s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.060s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport.cmake
+[7.060s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.079s] Invoked command in '/home/jason/Desktop/zam_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/realsense2_camera_msgs

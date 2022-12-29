@@ -1,0 +1,25 @@
+running develop
+Removing /home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages/keyboard-control.egg-link (link to .)
+running egg_info
+writing ../../build/keyboard_control/keyboard_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/keyboard_control/keyboard_control.egg-info/dependency_links.txt
+writing entry points to ../../build/keyboard_control/keyboard_control.egg-info/entry_points.txt
+writing requirements to ../../build/keyboard_control/keyboard_control.egg-info/requires.txt
+writing top-level names to ../../build/keyboard_control/keyboard_control.egg-info/top_level.txt
+reading manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jason/Desktop/zam_ws/build/keyboard_control/build
+creating /home/jason/Desktop/zam_ws/build/keyboard_control/build/lib
+copying twist_keyboard.py -> /home/jason/Desktop/zam_ws/build/keyboard_control/build/lib
+running install
+running install_lib
+copying /home/jason/Desktop/zam_ws/build/keyboard_control/build/lib/twist_keyboard.py -> /home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages
+byte-compiling /home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages/twist_keyboard.py to twist_keyboard.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../build/keyboard_control/keyboard_control.egg-info to /home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages/keyboard_control-0.0.1-py3.8.egg-info
+running install_scripts
+Installing keyboard script to /home/jason/Desktop/zam_ws/install/keyboard_control/lib/keyboard_control
+writing list of installed files to '/home/jason/Desktop/zam_ws/build/keyboard_control/install.log'

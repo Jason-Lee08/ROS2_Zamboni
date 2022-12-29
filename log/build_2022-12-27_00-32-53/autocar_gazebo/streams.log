@@ -1,0 +1,44 @@
+[0.088s] Invoking command in '/home/jason/Desktop/zam_ws/build/autocar_gazebo': CMAKE_PREFIX_PATH=/home/jason/Desktop/zam_ws/install/realsense_ros2:/home/jason/Desktop/zam_ws/install/realsense_examples:/home/jason/Desktop/zam_ws/install/realsense_node:/home/jason/Desktop/zam_ws/install/realsense_ros:/home/jason/Desktop/zam_ws/install/realsense_msgs:/home/jason/Desktop/zam_ws/install/keyboard_control:/home/jason/Desktop/zam_ws/install/zam_tools:/opt/ros/foxy:/home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin:/home/jason/Desktop/zam_ws/install/realsense2_description:/home/jason/Desktop/zam_ws/install/realsense2_camera:/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs:/home/jason/Desktop/zam_ws/install/launches:/home/jason/Desktop/zam_ws/install/autocar_nav:/home/jason/Desktop/zam_ws/install/autocar_msgs:/home/jason/Desktop/zam_ws/install/autocar_map:/home/jason/Desktop/zam_ws/install/autocar_gazebo:/home/jason/Desktop/zam_ws/install/autocar_description /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/autocar_gazebo -- -j4 -l4
+[0.315s] Invoked command in '/home/jason/Desktop/zam_ws/build/autocar_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/jason/Desktop/zam_ws/install/realsense_ros2:/home/jason/Desktop/zam_ws/install/realsense_examples:/home/jason/Desktop/zam_ws/install/realsense_node:/home/jason/Desktop/zam_ws/install/realsense_ros:/home/jason/Desktop/zam_ws/install/realsense_msgs:/home/jason/Desktop/zam_ws/install/keyboard_control:/home/jason/Desktop/zam_ws/install/zam_tools:/opt/ros/foxy:/home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin:/home/jason/Desktop/zam_ws/install/realsense2_description:/home/jason/Desktop/zam_ws/install/realsense2_camera:/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs:/home/jason/Desktop/zam_ws/install/launches:/home/jason/Desktop/zam_ws/install/autocar_nav:/home/jason/Desktop/zam_ws/install/autocar_msgs:/home/jason/Desktop/zam_ws/install/autocar_map:/home/jason/Desktop/zam_ws/install/autocar_gazebo:/home/jason/Desktop/zam_ws/install/autocar_description /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/autocar_gazebo -- -j4 -l4
+[0.478s] Invoking command in '/home/jason/Desktop/zam_ws/build/autocar_gazebo': CMAKE_PREFIX_PATH=/home/jason/Desktop/zam_ws/install/realsense_ros2:/home/jason/Desktop/zam_ws/install/realsense_examples:/home/jason/Desktop/zam_ws/install/realsense_node:/home/jason/Desktop/zam_ws/install/realsense_ros:/home/jason/Desktop/zam_ws/install/realsense_msgs:/home/jason/Desktop/zam_ws/install/keyboard_control:/home/jason/Desktop/zam_ws/install/zam_tools:/opt/ros/foxy:/home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin:/home/jason/Desktop/zam_ws/install/realsense2_description:/home/jason/Desktop/zam_ws/install/realsense2_camera:/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs:/home/jason/Desktop/zam_ws/install/launches:/home/jason/Desktop/zam_ws/install/autocar_nav:/home/jason/Desktop/zam_ws/install/autocar_msgs:/home/jason/Desktop/zam_ws/install/autocar_map:/home/jason/Desktop/zam_ws/install/autocar_gazebo:/home/jason/Desktop/zam_ws/install/autocar_description /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/autocar_gazebo
+[0.484s] -- Install configuration: ""
+[0.485s] -- Execute custom install script
+[0.485s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/autocar.world
+[0.485s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/autocar_city.world
+[0.486s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/autocar_spawn.world
+[0.486s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/empty.world
+[0.486s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/hockey_rink.jpg
+[0.500s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/ice_rink.world
+[0.500s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/populated_road.world
+[0.501s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/road.world
+[0.501s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/temp.xml
+[0.501s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/meshes/bl_1.stl
+[0.501s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/meshes/br_1.stl
+[0.501s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/meshes/burger_base.dae
+[0.501s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/meshes/chassis_link.stl
+[0.501s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/meshes/fl_1.stl
+[0.501s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/meshes/fr_1.stl
+[0.501s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/meshes/hokuyo.dae
+[0.501s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/meshes/lds.dae
+[0.502s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/meshes/spoiler.stl
+[0.502s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/meshes/tire.dae
+[0.502s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/meshes/zamboni2.stl
+[0.502s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/meshes/zamboni_v2.stl
+[0.507s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/model.config
+[0.507s] -- Up-to-date symlink: /home/jason/.gazebo/models/autocar/model.sdf
+[0.507s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/ament_index/resource_index/package_run_dependencies/autocar_gazebo
+[0.508s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/ament_index/resource_index/parent_prefix_path/autocar_gazebo
+[0.511s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/environment/ament_prefix_path.sh
+[0.513s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/environment/ament_prefix_path.dsv
+[0.514s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/environment/path.sh
+[0.519s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/environment/path.dsv
+[0.520s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/local_setup.bash
+[0.521s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/local_setup.sh
+[0.523s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/local_setup.zsh
+[0.524s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/local_setup.dsv
+[0.525s] -- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/package.dsv
+[0.580s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/ament_index/resource_index/packages/autocar_gazebo
+[0.580s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/cmake/autocar_gazeboConfig.cmake
+[0.582s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/cmake/autocar_gazeboConfig-version.cmake
+[0.583s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/package.xml
+[0.647s] Invoked command in '/home/jason/Desktop/zam_ws/build/autocar_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/jason/Desktop/zam_ws/install/realsense_ros2:/home/jason/Desktop/zam_ws/install/realsense_examples:/home/jason/Desktop/zam_ws/install/realsense_node:/home/jason/Desktop/zam_ws/install/realsense_ros:/home/jason/Desktop/zam_ws/install/realsense_msgs:/home/jason/Desktop/zam_ws/install/keyboard_control:/home/jason/Desktop/zam_ws/install/zam_tools:/opt/ros/foxy:/home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin:/home/jason/Desktop/zam_ws/install/realsense2_description:/home/jason/Desktop/zam_ws/install/realsense2_camera:/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs:/home/jason/Desktop/zam_ws/install/launches:/home/jason/Desktop/zam_ws/install/autocar_nav:/home/jason/Desktop/zam_ws/install/autocar_msgs:/home/jason/Desktop/zam_ws/install/autocar_map:/home/jason/Desktop/zam_ws/install/autocar_gazebo:/home/jason/Desktop/zam_ws/install/autocar_description /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/autocar_gazebo

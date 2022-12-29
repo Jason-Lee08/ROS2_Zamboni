@@ -1,0 +1,100 @@
+[0.056s] Invoking command in '/home/jason/Desktop/zam_ws/build/realsense_gazebo_plugin': /usr/bin/cmake /home/jason/Desktop/zam_ws/src/realsense_gazebo_plugin -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin
+[0.098s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.156s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.903s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.009s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.021s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.619s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.879s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.879s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.618s] -- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[2.897s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[3.080s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[3.090s] -- Looking for ignition-math6 -- found version 6.13.0
+[3.162s] -- Searching for dependencies of ignition-math6
+[3.203s] -- Looking for OGRE...
+[3.271s] -- Found Ogre Ghadamon (1.9.0)
+[3.281s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.395s] -- Looking for OGRE_Paging...
+[3.396s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.396s] -- Looking for OGRE_Terrain...
+[3.397s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.397s] -- Looking for OGRE_Property...
+[3.398s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.398s] -- Looking for OGRE_RTShaderSystem...
+[3.398s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.399s] -- Looking for OGRE_Volume...
+[3.399s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.400s] -- Looking for OGRE_Overlay...
+[3.400s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[5.172s] -- Looking for ignition-math6 -- found version 6.13.0
+[5.183s] -- Looking for ignition-transport8 -- found version 8.3.0
+[5.191s] -- Searching for dependencies of ignition-transport8
+[5.317s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[5.392s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[5.407s] -- Checking for module 'libzmq >= 4'
+[5.552s] --   Found libzmq , version 4.3.2
+[6.019s] -- Checking for module 'uuid'
+[6.153s] --   Found uuid, version 2.34.0
+[6.620s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[6.621s] -- Searching for dependencies of ignition-msgs5
+[6.770s] -- Looking for ignition-math6 -- found version 6.13.0
+[6.797s] -- Checking for module 'tinyxml2'
+[6.932s] --   Found tinyxml2, version 6.2.0
+[7.459s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[7.460s] -- Looking for ignition-common3 -- found version 3.14.2
+[7.462s] -- Searching for dependencies of ignition-common3
+[7.462s] -- Looking for dlfcn.h - found
+[7.463s] -- Looking for libdl - found
+[7.505s] -- Searching for <ignition-common3> component [graphics]
+[7.506s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[7.507s] -- Searching for dependencies of ignition-common3-graphics
+[7.508s] -- Looking for ignition-math6 -- found version 6.13.0
+[7.517s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[7.518s] -- Searching for dependencies of ignition-fuel_tools4
+[7.745s] -- Checking for module 'jsoncpp'
+[7.948s] --   Found jsoncpp, version 1.7.4
+[8.381s] -- Checking for module 'libzip'
+[8.619s] --   Found libzip, version 1.5.1
+[9.015s] -- Looking for ignition-common3 -- found version 3.14.2
+[9.016s] -- Looking for ignition-math6 -- found version 6.13.0
+[9.017s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[9.019s] -- Gazebo version: 11.11
+[9.052s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[10.668s] -- Found camera_info_manager: 2.4.0 (/opt/ros/foxy/share/camera_info_manager/cmake)
+[10.820s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[11.896s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[12.471s] -- Configuring done
+[12.750s] -- Generating done
+[12.774s] -- Build files have been written to: /home/jason/Desktop/zam_ws/build/realsense_gazebo_plugin
+[12.918s] Invoked command in '/home/jason/Desktop/zam_ws/build/realsense_gazebo_plugin' returned '0': /usr/bin/cmake /home/jason/Desktop/zam_ws/src/realsense_gazebo_plugin -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin
+[12.922s] Invoking command in '/home/jason/Desktop/zam_ws/build/realsense_gazebo_plugin': /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/realsense_gazebo_plugin -- -j4 -l4
+[13.459s] [100%] Built target realsense_gazebo_plugin
+[13.533s] Invoked command in '/home/jason/Desktop/zam_ws/build/realsense_gazebo_plugin' returned '0': /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/realsense_gazebo_plugin -- -j4 -l4
+[14.429s] Invoking command in '/home/jason/Desktop/zam_ws/build/realsense_gazebo_plugin': /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/realsense_gazebo_plugin
+[14.501s] -- Install configuration: ""
+[14.522s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/lib/librealsense_gazebo_plugin.so
+[14.536s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/include/
+[14.537s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin
+[14.537s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin/gazebo_ros_realsense.h
+[14.537s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin/RealSensePlugin.h
+[14.537s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/library_path.sh
+[14.537s] -- Installing: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/library_path.dsv
+[14.537s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/ament_index/resource_index/package_run_dependencies/realsense_gazebo_plugin
+[14.537s] -- Installing: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/ament_index/resource_index/parent_prefix_path/realsense_gazebo_plugin
+[14.537s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/ament_prefix_path.sh
+[14.538s] -- Installing: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/ament_prefix_path.dsv
+[14.538s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/path.sh
+[14.538s] -- Installing: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/path.dsv
+[14.538s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.bash
+[14.538s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.sh
+[14.538s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.zsh
+[14.538s] -- Installing: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.dsv
+[14.539s] -- Installing: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.dsv
+[14.545s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/ament_index/resource_index/packages/realsense_gazebo_plugin
+[14.545s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.545s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[14.545s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig.cmake
+[14.545s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig-version.cmake
+[14.546s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.xml
+[14.546s] Invoked command in '/home/jason/Desktop/zam_ws/build/realsense_gazebo_plugin' returned '0': /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/realsense_gazebo_plugin

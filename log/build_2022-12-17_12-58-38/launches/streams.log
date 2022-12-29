@@ -1,0 +1,51 @@
+[0.039s] Invoking command in '/home/jason/Desktop/zam_ws/build/launches': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jason/Desktop/zam_ws/src/AutoCarROS2/launches -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/zam_ws/install/launches
+[0.164s] -- The C compiler identification is GNU 9.4.0
+[0.274s] -- The CXX compiler identification is GNU 9.4.0
+[0.283s] -- Check for working C compiler: /usr/bin/cc
+[0.409s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.411s] -- Detecting C compiler ABI info
+[0.529s] -- Detecting C compiler ABI info - done
+[0.555s] -- Detecting C compile features
+[0.556s] -- Detecting C compile features - done
+[0.601s] -- Check for working CXX compiler: /usr/bin/c++
+[0.818s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.818s] -- Detecting CXX compiler ABI info
+[0.971s] -- Detecting CXX compiler ABI info - done
+[0.989s] -- Detecting CXX compile features
+[0.990s] -- Detecting CXX compile features - done
+[0.995s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.035s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.036s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.416s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.557s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.560s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.573s] -- Added test 'lint_cmake' to check CMake code style
+[1.581s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.590s] -- Added test 'xmllint' to check XML markup files
+[1.603s] -- Configuring done
+[1.603s] -- Generating done
+[1.603s] -- Build files have been written to: /home/jason/Desktop/zam_ws/build/launches
+[1.619s] Invoked command in '/home/jason/Desktop/zam_ws/build/launches' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jason/Desktop/zam_ws/src/AutoCarROS2/launches -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/zam_ws/install/launches
+[1.635s] Invoking command in '/home/jason/Desktop/zam_ws/build/launches': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/launches -- -j4 -l4
+[1.731s] Invoked command in '/home/jason/Desktop/zam_ws/build/launches' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/launches -- -j4 -l4
+[1.787s] Invoking command in '/home/jason/Desktop/zam_ws/build/launches': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/launches
+[1.804s] -- Install configuration: ""
+[1.805s] -- Installing: /home/jason/Desktop/zam_ws/install/launches/share/launches/launch
+[1.805s] -- Installing: /home/jason/Desktop/zam_ws/install/launches/share/launches/launch/default_launch.py
+[1.806s] -- Installing: /home/jason/Desktop/zam_ws/install/launches/share/launches/launch/click_launch.py
+[1.807s] -- Installing: /home/jason/Desktop/zam_ws/install/launches/share/ament_index/resource_index/package_run_dependencies/launches
+[1.807s] -- Installing: /home/jason/Desktop/zam_ws/install/launches/share/ament_index/resource_index/parent_prefix_path/launches
+[1.808s] -- Installing: /home/jason/Desktop/zam_ws/install/launches/share/launches/environment/ament_prefix_path.sh
+[1.808s] -- Installing: /home/jason/Desktop/zam_ws/install/launches/share/launches/environment/ament_prefix_path.dsv
+[1.809s] -- Installing: /home/jason/Desktop/zam_ws/install/launches/share/launches/environment/path.sh
+[1.809s] -- Installing: /home/jason/Desktop/zam_ws/install/launches/share/launches/environment/path.dsv
+[1.810s] -- Installing: /home/jason/Desktop/zam_ws/install/launches/share/launches/local_setup.bash
+[1.810s] -- Installing: /home/jason/Desktop/zam_ws/install/launches/share/launches/local_setup.sh
+[1.811s] -- Installing: /home/jason/Desktop/zam_ws/install/launches/share/launches/local_setup.zsh
+[1.811s] -- Installing: /home/jason/Desktop/zam_ws/install/launches/share/launches/local_setup.dsv
+[1.812s] -- Installing: /home/jason/Desktop/zam_ws/install/launches/share/launches/package.dsv
+[1.813s] -- Installing: /home/jason/Desktop/zam_ws/install/launches/share/ament_index/resource_index/packages/launches
+[1.813s] -- Installing: /home/jason/Desktop/zam_ws/install/launches/share/launches/cmake/launchesConfig.cmake
+[1.814s] -- Installing: /home/jason/Desktop/zam_ws/install/launches/share/launches/cmake/launchesConfig-version.cmake
+[1.814s] -- Installing: /home/jason/Desktop/zam_ws/install/launches/share/launches/package.xml
+[1.822s] Invoked command in '/home/jason/Desktop/zam_ws/build/launches' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/launches

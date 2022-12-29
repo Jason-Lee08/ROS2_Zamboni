@@ -1,0 +1,104 @@
+[0.073s] Invoking command in '/home/jason/Desktop/zam_ws/build/autocar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/keyboard_control:/home/jason/Desktop/zam_ws/install/zam_tools:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/autocar_msgs -- -j4 -l4
+[0.244s] [  2%] Built target autocar_msgs__cpp
+[0.312s] [ 16%] Built target autocar_msgs__rosidl_generator_c
+[0.428s] [ 30%] Built target autocar_msgs__rosidl_typesupport_fastrtps_cpp
+[0.488s] [ 44%] Built target autocar_msgs__rosidl_typesupport_introspection_c
+[0.582s] [ 58%] Built target autocar_msgs__rosidl_typesupport_c
+[0.686s] [ 72%] Built target autocar_msgs__rosidl_typesupport_fastrtps_c
+[0.770s] [ 86%] Built target autocar_msgs__rosidl_typesupport_cpp
+[0.836s] [100%] Built target autocar_msgs__rosidl_typesupport_introspection_cpp
+[0.979s] [100%] Built target autocar_msgs
+[1.393s] Invoked command in '/home/jason/Desktop/zam_ws/build/autocar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/keyboard_control:/home/jason/Desktop/zam_ws/install/zam_tools:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/autocar_msgs -- -j4 -l4
+[1.683s] Invoking command in '/home/jason/Desktop/zam_ws/build/autocar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/keyboard_control:/home/jason/Desktop/zam_ws/install/zam_tools:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/autocar_msgs
+[1.801s] -- Install configuration: ""
+[1.806s] -- Execute custom install script
+[1.807s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/ament_index/resource_index/rosidl_interfaces/autocar_msgs
+[1.809s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/path2_d__functions.h
+[1.810s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/path2_d__struct.h
+[1.811s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/path2_d__type_support.h
+[1.812s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/state2_d__functions.h
+[1.813s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/state2_d__struct.h
+[1.813s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/state2_d__type_support.h
+[1.814s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/twist2_d__functions.h
+[1.816s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/twist2_d__struct.h
+[1.816s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/twist2_d__type_support.h
+[1.817s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/path2_d.h
+[1.818s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.819s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/state2_d.h
+[1.819s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/twist2_d.h
+[1.820s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/environment/library_path.sh
+[1.821s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/environment/library_path.dsv
+[1.823s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_c.h
+[1.825s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/state2_d__rosidl_typesupport_fastrtps_c.h
+[1.826s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_c.h
+[1.826s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.828s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/lib/libautocar_msgs__rosidl_typesupport_fastrtps_c.so
+[1.830s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[1.830s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/state2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[1.831s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[1.832s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.833s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/lib/libautocar_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.834s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_c.h
+[1.835s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/state2_d__rosidl_typesupport_introspection_c.h
+[1.836s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_c.h
+[1.837s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.838s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/path2_d__builder.hpp
+[1.839s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/path2_d__struct.hpp
+[1.840s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/path2_d__traits.hpp
+[1.841s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/state2_d__builder.hpp
+[1.841s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/state2_d__struct.hpp
+[1.842s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/state2_d__traits.hpp
+[1.843s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/twist2_d__builder.hpp
+[1.844s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/twist2_d__struct.hpp
+[1.845s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/twist2_d__traits.hpp
+[1.847s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/path2_d.hpp
+[1.849s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/state2_d.hpp
+[1.851s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/twist2_d.hpp
+[1.853s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_cpp.hpp
+[1.855s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/state2_d__rosidl_typesupport_introspection_cpp.hpp
+[1.856s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/include/autocar_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_cpp.hpp
+[1.858s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/msg/Path2D.idl
+[1.858s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/msg/State2D.idl
+[1.859s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/msg/Twist2D.idl
+[1.859s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/msg/Path2D.msg
+[1.860s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/msg/State2D.msg
+[1.861s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/msg/Twist2D.msg
+[1.864s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/ament_index/resource_index/package_run_dependencies/autocar_msgs
+[1.864s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/ament_index/resource_index/parent_prefix_path/autocar_msgs
+[1.864s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/environment/ament_prefix_path.sh
+[1.864s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/environment/ament_prefix_path.dsv
+[1.864s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/environment/path.sh
+[1.865s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/environment/path.dsv
+[1.866s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/local_setup.bash
+[1.867s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/local_setup.sh
+[1.867s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/local_setup.zsh
+[1.868s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/local_setup.dsv
+[1.868s] -- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/package.dsv
+[1.917s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/ament_index/resource_index/packages/autocar_msgs
+[1.920s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/cmake/rosidl_cmake-extras.cmake
+[1.920s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.921s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.921s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.922s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.922s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.923s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.928s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/cmake/autocar_msgsConfig.cmake
+[1.931s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/cmake/autocar_msgsConfig-version.cmake
+[1.932s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/package.xml
+[1.939s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/autocar_msgs/lib/libautocar_msgs__rosidl_generator_c.so
+[1.940s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/autocar_msgs/lib/libautocar_msgs__rosidl_typesupport_introspection_c.so
+[1.940s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/autocar_msgs/lib/libautocar_msgs__rosidl_typesupport_c.so
+[1.940s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/autocar_msgs/lib/libautocar_msgs__rosidl_typesupport_introspection_cpp.so
+[1.940s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/autocar_msgs/lib/libautocar_msgs__rosidl_typesupport_cpp.so
+[1.940s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/cmake/autocar_msgs__rosidl_generator_cExport.cmake
+[1.940s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/cmake/autocar_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.940s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/cmake/autocar_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.940s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/cmake/autocar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.941s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/cmake/autocar_msgs__rosidl_typesupport_cExport.cmake
+[1.941s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/cmake/autocar_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.941s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/cmake/autocar_msgs__rosidl_generator_cppExport.cmake
+[1.941s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/cmake/autocar_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.941s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/cmake/autocar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.941s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/cmake/autocar_msgs__rosidl_typesupport_cppExport.cmake
+[1.941s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/cmake/autocar_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.992s] Invoked command in '/home/jason/Desktop/zam_ws/build/autocar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/keyboard_control:/home/jason/Desktop/zam_ws/install/zam_tools:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/autocar_msgs

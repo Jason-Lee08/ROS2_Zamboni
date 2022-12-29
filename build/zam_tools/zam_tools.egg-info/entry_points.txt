@@ -1,0 +1,3 @@
+[console_scripts]
+zam_driver = py_srvcli.zam_driver.py:main
+

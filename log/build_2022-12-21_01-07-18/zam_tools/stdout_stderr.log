@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating zam_tools.egg-info
+writing zam_tools.egg-info/PKG-INFO
+writing dependency_links to zam_tools.egg-info/dependency_links.txt
+writing entry points to zam_tools.egg-info/entry_points.txt
+writing requirements to zam_tools.egg-info/requires.txt
+writing top-level names to zam_tools.egg-info/top_level.txt
+writing manifest file 'zam_tools.egg-info/SOURCES.txt'
+reading manifest file 'zam_tools.egg-info/SOURCES.txt'
+writing manifest file 'zam_tools.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jason/Desktop/zam_ws/install/zam_tools/lib/python3.8/site-packages/site.py
+Creating /home/jason/Desktop/zam_ws/install/zam_tools/lib/python3.8/site-packages/zam-tools.egg-link (link to .)
+Installing zam_driver script to /home/jason/Desktop/zam_ws/install/zam_tools/lib/zam_tools
+
+Installed /home/jason/Desktop/zam_ws/build/zam_tools
+running install_data
+creating /home/jason/Desktop/zam_ws/install/zam_tools/share/ament_index
+creating /home/jason/Desktop/zam_ws/install/zam_tools/share/ament_index/resource_index
+creating /home/jason/Desktop/zam_ws/install/zam_tools/share/ament_index/resource_index/packages
+copying resource/zam_tools -> /home/jason/Desktop/zam_ws/install/zam_tools/share/ament_index/resource_index/packages
+copying package.xml -> /home/jason/Desktop/zam_ws/install/zam_tools/share/zam_tools

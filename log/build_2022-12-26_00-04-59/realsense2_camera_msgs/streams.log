@@ -1,0 +1,15 @@
+[0.070s] Invoking command in '/home/jason/Desktop/zam_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/realsense2_camera_msgs -- -j4 -l4
+[0.212s] [  1%] Built target realsense2_camera_msgs__cpp
+[0.289s] [ 12%] Built target realsense2_camera_msgs__rosidl_generator_c
+[0.390s] [ 23%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp
+[0.446s] [ 34%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c
+[0.508s] [ 45%] Built target realsense2_camera_msgs__rosidl_typesupport_c
+[0.598s] [ 56%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[0.622s] [ 67%] Built target realsense2_camera_msgs__rosidl_typesupport_cpp
+[0.721s] [ 78%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c
+[0.761s] [ 78%] Built target realsense2_camera_msgs
+[0.797s] [ 80%] Built target realsense2_camera_msgs__py
+[0.851s] [ 89%] Built target realsense2_camera_msgs__python
+[0.898s] [ 92%] Built target realsense2_camera_msgs__rosidl_typesupport_c__pyext
+[0.945s] [ 96%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.017s] [100%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext

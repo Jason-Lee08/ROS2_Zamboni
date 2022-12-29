@@ -1,0 +1,3 @@
+[console_scripts]
+keyboard = twist_keyboard:main
+

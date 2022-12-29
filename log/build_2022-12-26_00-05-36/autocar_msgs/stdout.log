@@ -1,0 +1,9 @@
+[  2%] Built target autocar_msgs__cpp
+[ 16%] Built target autocar_msgs__rosidl_generator_c
+[ 30%] Built target autocar_msgs__rosidl_typesupport_introspection_cpp
+[ 44%] Built target autocar_msgs__rosidl_typesupport_cpp
+[ 58%] Built target autocar_msgs__rosidl_typesupport_fastrtps_cpp
+[ 72%] Built target autocar_msgs__rosidl_typesupport_c
+[ 86%] Built target autocar_msgs__rosidl_typesupport_fastrtps_c
+[100%] Built target autocar_msgs__rosidl_typesupport_introspection_c
+[100%] Built target autocar_msgs

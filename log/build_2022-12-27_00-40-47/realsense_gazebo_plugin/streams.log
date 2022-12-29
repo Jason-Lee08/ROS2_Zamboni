@@ -1,0 +1,30 @@
+[0.074s] Invoking command in '/home/jason/Desktop/zam_ws/build/realsense_gazebo_plugin': /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/realsense_gazebo_plugin -- -j4 -l4
+[0.472s] [100%] Built target realsense_gazebo_plugin
+[0.565s] Invoked command in '/home/jason/Desktop/zam_ws/build/realsense_gazebo_plugin' returned '0': /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/realsense_gazebo_plugin -- -j4 -l4
+[0.983s] Invoking command in '/home/jason/Desktop/zam_ws/build/realsense_gazebo_plugin': /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/realsense_gazebo_plugin
+[0.999s] -- Install configuration: ""
+[1.000s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/lib/librealsense_gazebo_plugin.so
+[1.000s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/include/
+[1.001s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin
+[1.001s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin/gazebo_ros_realsense.h
+[1.001s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin/RealSensePlugin.h
+[1.001s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/library_path.sh
+[1.001s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/library_path.dsv
+[1.002s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/ament_index/resource_index/package_run_dependencies/realsense_gazebo_plugin
+[1.002s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/ament_index/resource_index/parent_prefix_path/realsense_gazebo_plugin
+[1.002s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/ament_prefix_path.sh
+[1.002s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/ament_prefix_path.dsv
+[1.003s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/path.sh
+[1.003s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/path.dsv
+[1.003s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.bash
+[1.003s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.sh
+[1.003s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.zsh
+[1.003s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.dsv
+[1.004s] -- Installing: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.dsv
+[1.004s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/ament_index/resource_index/packages/realsense_gazebo_plugin
+[1.004s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.008s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[1.008s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig.cmake
+[1.009s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig-version.cmake
+[1.009s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.xml
+[1.010s] Invoked command in '/home/jason/Desktop/zam_ws/build/realsense_gazebo_plugin' returned '0': /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/realsense_gazebo_plugin

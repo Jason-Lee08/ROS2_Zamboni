@@ -1,0 +1,41 @@
+[0.118s] Invoking command in '/home/jason/Desktop/zam_ws/build/autocar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/keyboard_control:/home/jason/Desktop/zam_ws/install/zam_tools:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/autocar_description -- -j4 -l4
+[0.327s] Invoked command in '/home/jason/Desktop/zam_ws/build/autocar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/keyboard_control:/home/jason/Desktop/zam_ws/install/zam_tools:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/autocar_description -- -j4 -l4
+[0.687s] Invoking command in '/home/jason/Desktop/zam_ws/build/autocar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/keyboard_control:/home/jason/Desktop/zam_ws/install/zam_tools:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/autocar_description
+[0.741s] -- Install configuration: ""
+[0.742s] -- Execute custom install script
+[0.744s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/Boards.stl
+[0.745s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/HandRail.stl
+[0.746s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/KickPlate.stl
+[0.747s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/bl_1.stl
+[0.753s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/br_1.stl
+[0.758s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/chassis_link.stl
+[0.759s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/fl_1.stl
+[0.761s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/fr_1.stl
+[0.762s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/hokuyo.dae
+[0.763s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/lds.dae
+[0.764s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/tire.dae
+[0.766s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/zamboni2.stl
+[0.766s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/zamboni_v2.stl
+[0.768s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//urdf/autocar.sdf
+[0.772s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//urdf/autocar.xacro
+[0.773s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//urdf/temp.xml
+[0.775s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//urdf/world_zam_model_backup.sdf
+[0.776s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//urdf/zam.sdf
+[0.782s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//urdf/zam.urdf
+[0.811s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//rviz/view.rviz
+[0.811s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/ament_index/resource_index/package_run_dependencies/autocar_description
+[0.811s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/ament_index/resource_index/parent_prefix_path/autocar_description
+[0.814s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/environment/ament_prefix_path.sh
+[0.815s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/environment/ament_prefix_path.dsv
+[0.815s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/environment/path.sh
+[0.818s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/environment/path.dsv
+[0.819s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/local_setup.bash
+[0.822s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/local_setup.sh
+[0.824s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/local_setup.zsh
+[0.826s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/local_setup.dsv
+[0.828s] -- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/package.dsv
+[0.854s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/ament_index/resource_index/packages/autocar_description
+[0.854s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/cmake/autocar_descriptionConfig.cmake
+[0.854s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/cmake/autocar_descriptionConfig-version.cmake
+[0.866s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/package.xml
+[0.882s] Invoked command in '/home/jason/Desktop/zam_ws/build/autocar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/keyboard_control:/home/jason/Desktop/zam_ws/install/zam_tools:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/autocar_description

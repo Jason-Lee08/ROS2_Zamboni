@@ -1,0 +1,72 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found tf2_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_msgs/cmake)
+-- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+-- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+-- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system 
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+-- looking for PCL_COMMON
+-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/jason/Desktop/zam_ws/src/realsense_ros2/realsense_ros2/include;$<BUILD_INTERFACE:/home/jason/Desktop/zam_ws/src/realsense_ros2/realsense_ros2/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jason/Desktop/zam_ws/build/realsense_ros2
+[35m[1mScanning dependencies of target rs_d435_node[0m
+[ 25%] [32m[1mLinking CXX executable rs_t265_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rs_d435_node.dir/src/rs_d435_node.cpp.o[0m
+[ 75%] Built target rs_t265_node
+In file included from [01m[K/home/jason/Desktop/zam_ws/src/realsense_ros2/realsense_ros2/src/rs_d435_node.cpp:21[m[K:
+[01m[K/opt/ros/foxy/include/image_transport/image_transport.h:41:89:[m[K [01;36m[Knote: [m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead
+   41 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+      |                                                                                         [01;36m[K^[m[K
+[100%] [32m[1mLinking CXX executable rs_d435_node[0m
+[100%] Built target rs_d435_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/jason/Desktop/zam_ws/install/realsense_ros2/share/realsense_ros2//launch/online_async_launch.py
+-- Symlinking: /home/jason/Desktop/zam_ws/install/realsense_ros2/share/realsense_ros2//launch/realsense_2d_slam_launch.py
+-- Symlinking: /home/jason/Desktop/zam_ws/install/realsense_ros2/share/realsense_ros2//launch/realsense_launch.py
+-- Symlinking: /home/jason/Desktop/zam_ws/install/realsense_ros2/share/realsense_ros2//launch/realsense_rtabmap.py
+-- Symlinking: /home/jason/Desktop/zam_ws/install/realsense_ros2/share/realsense_ros2//config/mapper_params_online_async.yaml
+-- Symlinking: /home/jason/Desktop/zam_ws/install/realsense_ros2/share/realsense_ros2//config/rs_cartographer.lua
+-- Symlinking: /home/jason/Desktop/zam_ws/install/realsense_ros2/lib/realsense_ros2/rs_t265_node
+-- Symlinking: /home/jason/Desktop/zam_ws/install/realsense_ros2/lib/realsense_ros2/rs_d435_node
+-- Symlinking: /home/jason/Desktop/zam_ws/install/realsense_ros2/share/ament_index/resource_index/package_run_dependencies/realsense_ros2
+-- Symlinking: /home/jason/Desktop/zam_ws/install/realsense_ros2/share/ament_index/resource_index/parent_prefix_path/realsense_ros2
+-- Symlinking: /home/jason/Desktop/zam_ws/install/realsense_ros2/share/realsense_ros2/environment/ament_prefix_path.sh
+-- Symlinking: /home/jason/Desktop/zam_ws/install/realsense_ros2/share/realsense_ros2/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jason/Desktop/zam_ws/install/realsense_ros2/share/realsense_ros2/environment/path.sh
+-- Symlinking: /home/jason/Desktop/zam_ws/install/realsense_ros2/share/realsense_ros2/environment/path.dsv
+-- Symlinking: /home/jason/Desktop/zam_ws/install/realsense_ros2/share/realsense_ros2/local_setup.bash
+-- Symlinking: /home/jason/Desktop/zam_ws/install/realsense_ros2/share/realsense_ros2/local_setup.sh
+-- Symlinking: /home/jason/Desktop/zam_ws/install/realsense_ros2/share/realsense_ros2/local_setup.zsh
+-- Symlinking: /home/jason/Desktop/zam_ws/install/realsense_ros2/share/realsense_ros2/local_setup.dsv
+-- Symlinking: /home/jason/Desktop/zam_ws/install/realsense_ros2/share/realsense_ros2/package.dsv
+-- Symlinking: /home/jason/Desktop/zam_ws/install/realsense_ros2/share/ament_index/resource_index/packages/realsense_ros2
+-- Symlinking: /home/jason/Desktop/zam_ws/install/realsense_ros2/share/realsense_ros2/cmake/realsense_ros2Config.cmake
+-- Symlinking: /home/jason/Desktop/zam_ws/install/realsense_ros2/share/realsense_ros2/cmake/realsense_ros2Config-version.cmake
+-- Symlinking: /home/jason/Desktop/zam_ws/install/realsense_ros2/share/realsense_ros2/package.xml

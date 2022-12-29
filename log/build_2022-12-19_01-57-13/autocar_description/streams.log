@@ -1,0 +1,33 @@
+[0.062s] Invoking command in '/home/jason/Desktop/zam_ws/build/autocar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/autocar_description -- -j4 -l4
+[0.208s] Invoked command in '/home/jason/Desktop/zam_ws/build/autocar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/autocar_description -- -j4 -l4
+[0.360s] Invoking command in '/home/jason/Desktop/zam_ws/build/autocar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/autocar_description
+[0.381s] -- Install configuration: ""
+[0.382s] -- Execute custom install script
+[0.384s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/bl_1.stl
+[0.384s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/br_1.stl
+[0.385s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/chassis_link.stl
+[0.385s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/fl_1.stl
+[0.386s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/fr_1.stl
+[0.387s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/hokuyo.dae
+[0.388s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/lds.dae
+[0.388s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/tire.dae
+[0.389s] -- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/zamboni_v2.stl
+[0.459s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//urdf/autocar.xacro
+[0.459s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//urdf/temp.xml
+[0.459s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//rviz/view.rviz
+[0.460s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/ament_index/resource_index/package_run_dependencies/autocar_description
+[0.462s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/ament_index/resource_index/parent_prefix_path/autocar_description
+[0.462s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/environment/ament_prefix_path.sh
+[0.462s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/environment/ament_prefix_path.dsv
+[0.463s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/environment/path.sh
+[0.463s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/environment/path.dsv
+[0.463s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/local_setup.bash
+[0.466s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/local_setup.sh
+[0.466s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/local_setup.zsh
+[0.467s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/local_setup.dsv
+[0.467s] -- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/package.dsv
+[0.507s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/ament_index/resource_index/packages/autocar_description
+[0.508s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/cmake/autocar_descriptionConfig.cmake
+[0.508s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/cmake/autocar_descriptionConfig-version.cmake
+[0.509s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/package.xml
+[0.514s] Invoked command in '/home/jason/Desktop/zam_ws/build/autocar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/autocar_description

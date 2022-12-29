@@ -1,0 +1,24 @@
+[1.902s] Invoking command in '/home/jason/Desktop/zam_ws/build/keyboard_control': PYTHONPATH=/home/jason/Desktop/zam_ws/build/keyboard_control/prefix_override:/home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jason/Desktop/zam_ws/build/keyboard_control/build
+[2.786s] running develop
+[3.271s] Invoked command in '/home/jason/Desktop/zam_ws/build/keyboard_control' returned '0': PYTHONPATH=/home/jason/Desktop/zam_ws/build/keyboard_control/prefix_override:/home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jason/Desktop/zam_ws/build/keyboard_control/build
+[3.274s] Invoking command in '/home/jason/Desktop/zam_ws/src/keyboard_control': PYTHONPATH=/home/jason/Desktop/zam_ws/build/keyboard_control/prefix_override:/home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/keyboard_control build --build-base /home/jason/Desktop/zam_ws/build/keyboard_control/build install --record /home/jason/Desktop/zam_ws/build/keyboard_control/install.log --install-scripts $base/lib/keyboard_control --single-version-externally-managed
+[3.913s] running egg_info
+[3.914s] writing ../../build/keyboard_control/keyboard_control.egg-info/PKG-INFO
+[3.915s] writing dependency_links to ../../build/keyboard_control/keyboard_control.egg-info/dependency_links.txt
+[3.915s] writing entry points to ../../build/keyboard_control/keyboard_control.egg-info/entry_points.txt
+[3.915s] writing requirements to ../../build/keyboard_control/keyboard_control.egg-info/requires.txt
+[3.915s] writing top-level names to ../../build/keyboard_control/keyboard_control.egg-info/top_level.txt
+[3.997s] reading manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+[3.997s] writing manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+[3.997s] running build
+[3.997s] running build_py
+[3.997s] running install
+[3.997s] running install_lib
+[4.000s] running install_data
+[4.001s] running install_egg_info
+[4.005s] removing '/home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages/keyboard_control-0.0.1-py3.8.egg-info' (and everything under it)
+[4.005s] Copying ../../build/keyboard_control/keyboard_control.egg-info to /home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages/keyboard_control-0.0.1-py3.8.egg-info
+[4.007s] running install_scripts
+[4.038s] Installing keyboard script to /home/jason/Desktop/zam_ws/install/keyboard_control/lib/keyboard_control
+[4.038s] writing list of installed files to '/home/jason/Desktop/zam_ws/build/keyboard_control/install.log'
+[4.091s] Invoked command in '/home/jason/Desktop/zam_ws/src/keyboard_control' returned '0': PYTHONPATH=/home/jason/Desktop/zam_ws/build/keyboard_control/prefix_override:/home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/keyboard_control build --build-base /home/jason/Desktop/zam_ws/build/keyboard_control/build install --record /home/jason/Desktop/zam_ws/build/keyboard_control/install.log --install-scripts $base/lib/keyboard_control --single-version-externally-managed

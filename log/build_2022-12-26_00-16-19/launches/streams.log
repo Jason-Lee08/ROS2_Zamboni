@@ -1,0 +1,25 @@
+[0.042s] Invoking command in '/home/jason/Desktop/zam_ws/build/launches': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/launches -- -j4 -l4
+[0.135s] Invoked command in '/home/jason/Desktop/zam_ws/build/launches' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/launches -- -j4 -l4
+[0.205s] Invoking command in '/home/jason/Desktop/zam_ws/build/launches': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/launches
+[0.225s] -- Install configuration: ""
+[0.227s] -- Execute custom install script
+[0.228s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/launches/share/launches/launch/click_launch.py
+[0.229s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/launches/share/launches/launch/default_launch.py
+[0.229s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/launches/share/launches/launch/launch2.py
+[0.229s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/launches/share/launches/launch/launch3.py
+[0.230s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/launches/share/ament_index/resource_index/package_run_dependencies/launches
+[0.230s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/launches/share/ament_index/resource_index/parent_prefix_path/launches
+[0.231s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/launches/share/launches/environment/ament_prefix_path.sh
+[0.231s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/launches/share/launches/environment/ament_prefix_path.dsv
+[0.232s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/launches/share/launches/environment/path.sh
+[0.234s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/launches/share/launches/environment/path.dsv
+[0.235s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/launches/share/launches/local_setup.bash
+[0.235s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/launches/share/launches/local_setup.sh
+[0.236s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/launches/share/launches/local_setup.zsh
+[0.236s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/launches/share/launches/local_setup.dsv
+[0.237s] -- Symlinking: /home/jason/Desktop/zam_ws/install/launches/share/launches/package.dsv
+[0.256s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/launches/share/ament_index/resource_index/packages/launches
+[0.256s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/launches/share/launches/cmake/launchesConfig.cmake
+[0.256s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/launches/share/launches/cmake/launchesConfig-version.cmake
+[0.257s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/launches/share/launches/package.xml
+[0.265s] Invoked command in '/home/jason/Desktop/zam_ws/build/launches' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/launches

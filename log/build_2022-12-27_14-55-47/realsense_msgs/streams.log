@@ -1,0 +1,90 @@
+[0.063s] Invoking command in '/home/jason/Desktop/zam_ws/build/realsense_msgs': CMAKE_PREFIX_PATH=/home/jason/Desktop/zam_ws/install/realsense_ros2:/home/jason/Desktop/zam_ws/install/realsense_examples:/home/jason/Desktop/zam_ws/install/realsense_node:/home/jason/Desktop/zam_ws/install/realsense_ros:/home/jason/Desktop/zam_ws/install/realsense_msgs:/home/jason/Desktop/zam_ws/install/keyboard_control:/home/jason/Desktop/zam_ws/install/zam_tools:/opt/ros/foxy:/home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin:/home/jason/Desktop/zam_ws/install/realsense2_description:/home/jason/Desktop/zam_ws/install/realsense2_camera:/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs:/home/jason/Desktop/zam_ws/install/launches:/home/jason/Desktop/zam_ws/install/autocar_nav:/home/jason/Desktop/zam_ws/install/autocar_msgs:/home/jason/Desktop/zam_ws/install/autocar_map:/home/jason/Desktop/zam_ws/install/autocar_gazebo:/home/jason/Desktop/zam_ws/install/autocar_description /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/realsense_msgs -- -j4 -l4
+[0.240s] [  3%] Built target realsense_msgs__cpp
+[0.387s] [ 12%] Built target realsense_msgs__rosidl_typesupport_cpp
+[0.413s] [ 22%] Built target realsense_msgs__rosidl_typesupport_fastrtps_cpp
+[0.421s] [ 32%] Built target realsense_msgs__rosidl_typesupport_introspection_cpp
+[0.422s] [ 41%] Built target realsense_msgs__rosidl_generator_c
+[0.541s] [ 51%] Built target realsense_msgs__rosidl_typesupport_fastrtps_c
+[0.554s] [ 61%] Built target realsense_msgs__rosidl_typesupport_introspection_c
+[0.588s] [ 70%] Built target realsense_msgs__rosidl_typesupport_c
+[0.657s] [ 70%] Built target realsense_msgs
+[0.692s] [ 74%] Built target realsense_msgs__py
+[0.745s] [ 80%] Built target realsense_msgs__python
+[0.835s] [ 87%] Built target realsense_msgs__rosidl_typesupport_c__pyext
+[0.862s] [ 93%] Built target realsense_msgs__rosidl_typesupport_introspection_c__pyext
+[0.868s] [100%] Built target realsense_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.892s] Invoked command in '/home/jason/Desktop/zam_ws/build/realsense_msgs' returned '0': CMAKE_PREFIX_PATH=/home/jason/Desktop/zam_ws/install/realsense_ros2:/home/jason/Desktop/zam_ws/install/realsense_examples:/home/jason/Desktop/zam_ws/install/realsense_node:/home/jason/Desktop/zam_ws/install/realsense_ros:/home/jason/Desktop/zam_ws/install/realsense_msgs:/home/jason/Desktop/zam_ws/install/keyboard_control:/home/jason/Desktop/zam_ws/install/zam_tools:/opt/ros/foxy:/home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin:/home/jason/Desktop/zam_ws/install/realsense2_description:/home/jason/Desktop/zam_ws/install/realsense2_camera:/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs:/home/jason/Desktop/zam_ws/install/launches:/home/jason/Desktop/zam_ws/install/autocar_nav:/home/jason/Desktop/zam_ws/install/autocar_msgs:/home/jason/Desktop/zam_ws/install/autocar_map:/home/jason/Desktop/zam_ws/install/autocar_gazebo:/home/jason/Desktop/zam_ws/install/autocar_description /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/realsense_msgs -- -j4 -l4
+[1.014s] Invoking command in '/home/jason/Desktop/zam_ws/build/realsense_msgs': CMAKE_PREFIX_PATH=/home/jason/Desktop/zam_ws/install/realsense_ros2:/home/jason/Desktop/zam_ws/install/realsense_examples:/home/jason/Desktop/zam_ws/install/realsense_node:/home/jason/Desktop/zam_ws/install/realsense_ros:/home/jason/Desktop/zam_ws/install/realsense_msgs:/home/jason/Desktop/zam_ws/install/keyboard_control:/home/jason/Desktop/zam_ws/install/zam_tools:/opt/ros/foxy:/home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin:/home/jason/Desktop/zam_ws/install/realsense2_description:/home/jason/Desktop/zam_ws/install/realsense2_camera:/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs:/home/jason/Desktop/zam_ws/install/launches:/home/jason/Desktop/zam_ws/install/autocar_nav:/home/jason/Desktop/zam_ws/install/autocar_msgs:/home/jason/Desktop/zam_ws/install/autocar_map:/home/jason/Desktop/zam_ws/install/autocar_gazebo:/home/jason/Desktop/zam_ws/install/autocar_description /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/realsense_msgs
+[1.038s] -- Install configuration: ""
+[1.039s] -- Execute custom install script
+[1.040s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/ament_index/resource_index/rosidl_interfaces/realsense_msgs
+[1.041s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__functions.h
+[1.041s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__struct.h
+[1.041s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__type_support.h
+[1.042s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/include/realsense_msgs/msg/imu_info.h
+[1.042s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/include/realsense_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.043s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/environment/library_path.sh
+[1.044s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/environment/library_path.dsv
+[1.045s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h
+[1.045s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/include/realsense_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.046s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_fastrtps_c.so
+[1.047s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_cpp.hpp
+[1.049s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/include/realsense_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.050s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.051s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_c.h
+[1.051s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/include/realsense_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.051s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__builder.hpp
+[1.052s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__struct.hpp
+[1.052s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__traits.hpp
+[1.052s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/include/realsense_msgs/msg/imu_info.hpp
+[1.053s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_cpp.hpp
+[1.053s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/environment/pythonpath.sh
+[1.057s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/environment/pythonpath.dsv
+[1.058s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/lib/python3.8/site-packages/realsense_msgs/__init__.py
+[1.059s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/lib/python3.8/site-packages/realsense_msgs/msg/__init__.py
+[1.061s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/lib/python3.8/site-packages/realsense_msgs/msg/_imu_info.py
+[1.061s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/lib/python3.8/site-packages/realsense_msgs/realsense_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.062s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/lib/python3.8/site-packages/realsense_msgs/realsense_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.074s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/lib/python3.8/site-packages/realsense_msgs/realsense_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.075s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/lib/librealsense_msgs__python.so
+[1.076s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/msg/IMUInfo.idl
+[1.077s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/msg/IMUInfo.msg
+[1.077s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/ament_index/resource_index/package_run_dependencies/realsense_msgs
+[1.083s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/ament_index/resource_index/parent_prefix_path/realsense_msgs
+[1.083s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/environment/ament_prefix_path.sh
+[1.083s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/environment/ament_prefix_path.dsv
+[1.083s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/environment/path.sh
+[1.083s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/environment/path.dsv
+[1.084s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/local_setup.bash
+[1.084s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/local_setup.sh
+[1.084s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/local_setup.zsh
+[1.084s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/local_setup.dsv
+[1.084s] -- Symlinking: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/package.dsv
+[1.098s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/ament_index/resource_index/packages/realsense_msgs
+[1.098s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/cmake/rosidl_cmake-extras.cmake
+[1.099s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.099s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.099s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.099s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.099s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.099s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.100s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgsConfig.cmake
+[1.100s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgsConfig-version.cmake
+[1.100s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/package.xml
+[1.100s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_msgs/lib/librealsense_msgs__rosidl_generator_c.so
+[1.100s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_introspection_c.so
+[1.100s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_c.so
+[1.100s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_introspection_cpp.so
+[1.101s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_cpp.so
+[1.193s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_generator_cExport.cmake
+[1.193s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.193s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.193s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.194s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_typesupport_cExport.cmake
+[1.194s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.194s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_generator_cppExport.cmake
+[1.194s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.194s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.194s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_typesupport_cppExport.cmake
+[1.195s] -- Up-to-date: /home/jason/Desktop/zam_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.241s] Invoked command in '/home/jason/Desktop/zam_ws/build/realsense_msgs' returned '0': CMAKE_PREFIX_PATH=/home/jason/Desktop/zam_ws/install/realsense_ros2:/home/jason/Desktop/zam_ws/install/realsense_examples:/home/jason/Desktop/zam_ws/install/realsense_node:/home/jason/Desktop/zam_ws/install/realsense_ros:/home/jason/Desktop/zam_ws/install/realsense_msgs:/home/jason/Desktop/zam_ws/install/keyboard_control:/home/jason/Desktop/zam_ws/install/zam_tools:/opt/ros/foxy:/home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin:/home/jason/Desktop/zam_ws/install/realsense2_description:/home/jason/Desktop/zam_ws/install/realsense2_camera:/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs:/home/jason/Desktop/zam_ws/install/launches:/home/jason/Desktop/zam_ws/install/autocar_nav:/home/jason/Desktop/zam_ws/install/autocar_msgs:/home/jason/Desktop/zam_ws/install/autocar_map:/home/jason/Desktop/zam_ws/install/autocar_gazebo:/home/jason/Desktop/zam_ws/install/autocar_description /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/realsense_msgs

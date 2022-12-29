@@ -1,0 +1,17 @@
+[1.143s] Invoking command in '/home/jason/Desktop/zam_ws/build/zam_tools': PYTHONPATH=/home/jason/Desktop/zam_ws/build/zam_tools/prefix_override:/home/jason/Desktop/zam_ws/install/zam_tools/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jason/Desktop/zam_ws/build/zam_tools/build --no-deps install_data
+[1.354s] running develop
+[1.484s] running egg_info
+[1.484s] writing zam_tools.egg-info/PKG-INFO
+[1.485s] writing dependency_links to zam_tools.egg-info/dependency_links.txt
+[1.485s] writing entry points to zam_tools.egg-info/entry_points.txt
+[1.485s] writing requirements to zam_tools.egg-info/requires.txt
+[1.485s] writing top-level names to zam_tools.egg-info/top_level.txt
+[1.516s] reading manifest file 'zam_tools.egg-info/SOURCES.txt'
+[1.517s] writing manifest file 'zam_tools.egg-info/SOURCES.txt'
+[1.567s] running build_ext
+[1.568s] Creating /home/jason/Desktop/zam_ws/install/zam_tools/lib/python3.8/site-packages/zam-tools.egg-link (link to .)
+[1.569s] Installing zam_driver script to /home/jason/Desktop/zam_ws/install/zam_tools/lib/zam_tools
+[1.569s] 
+[1.570s] Installed /home/jason/Desktop/zam_ws/build/zam_tools
+[1.570s] running install_data
+[1.606s] Invoked command in '/home/jason/Desktop/zam_ws/build/zam_tools' returned '0': PYTHONPATH=/home/jason/Desktop/zam_ws/build/zam_tools/prefix_override:/home/jason/Desktop/zam_ws/install/zam_tools/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jason/Desktop/zam_ws/build/zam_tools/build --no-deps install_data

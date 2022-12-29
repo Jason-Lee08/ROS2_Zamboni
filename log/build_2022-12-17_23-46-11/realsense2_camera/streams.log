@@ -1,0 +1,64 @@
+[0.040s] Invoking command in '/home/jason/Desktop/zam_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs:/home/jason/Desktop/zam_ws/src/AutoCarROS2/install/launches:/home/jason/Desktop/zam_ws/src/AutoCarROS2/install/autocar_nav:/home/jason/Desktop/zam_ws/src/AutoCarROS2/install/autocar_msgs:/home/jason/Desktop/zam_ws/src/AutoCarROS2/install/autocar_map:/home/jason/Desktop/zam_ws/src/AutoCarROS2/install/autocar_gazebo:/home/jason/Desktop/zam_ws/src/AutoCarROS2/install/autocar_description:/home/jason/Desktop/zam_ws/install/launches:/home/jason/Desktop/zam_ws/install/autocar_nav:/home/jason/Desktop/zam_ws/install/autocar_msgs:/home/jason/Desktop/zam_ws/install/autocar_map:/home/jason/Desktop/zam_ws/install/autocar_gazebo:/home/jason/Desktop/zam_ws/install/autocar_description:/home/jason/Desktop/autocarws/install/launches:/home/jason/Desktop/autocarws/install/autocar_nav:/home/jason/Desktop/autocarws/install/autocar_msgs:/home/jason/Desktop/autocarws/install/autocar_map:/home/jason/Desktop/autocarws/install/autocar_gazebo:/home/jason/Desktop/autocarws/install/autocar_description:/opt/ros/foxy LD_LIBRARY_PATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jason/Desktop/zam_ws/src/realsense-ros/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/zam_ws/install/realsense2_camera
+[0.121s] -- The C compiler identification is GNU 9.4.0
+[0.227s] -- The CXX compiler identification is GNU 9.4.0
+[0.242s] -- Check for working C compiler: /usr/bin/cc
+[0.355s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.357s] -- Detecting C compiler ABI info
+[0.473s] -- Detecting C compiler ABI info - done
+[0.496s] -- Detecting C compile features
+[0.496s] -- Detecting C compile features - done
+[0.501s] -- Check for working CXX compiler: /usr/bin/c++
+[0.628s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.629s] -- Detecting CXX compiler ABI info
+[0.754s] -- Detecting CXX compiler ABI info - done
+[0.775s] -- Detecting CXX compile features
+[0.776s] -- Detecting CXX compile features - done
+[0.777s] -- Create Release Build.
+[0.782s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.829s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.830s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.229s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[1.298s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.316s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.499s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.564s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.734s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.790s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[2.107s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[2.204s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.207s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.208s] -- Looking for pthread.h
+[2.322s] -- Looking for pthread.h - found
+[2.322s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.441s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.441s] -- Looking for pthread_create in pthreads
+[2.549s] -- Looking for pthread_create in pthreads - not found
+[2.549s] -- Looking for pthread_create in pthread
+[2.641s] -- Looking for pthread_create in pthread - found
+[2.643s] -- Found Threads: TRUE  
+[2.957s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[3.078s] -- Found realsense2_camera_msgs: 3.2.3 (/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake)
+[3.148s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[3.167s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[3.256s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[3.623s] CMake Error at CMakeLists.txt:100 (find_package):
+[3.623s]   By not providing "Finddiagnostic_updater.cmake" in CMAKE_MODULE_PATH this
+[3.623s]   project has asked CMake to find a package configuration file provided by
+[3.623s]   "diagnostic_updater", but CMake did not find one.
+[3.623s] 
+[3.624s]   Could not find a package configuration file provided by
+[3.624s]   "diagnostic_updater" with any of the following names:
+[3.624s] 
+[3.624s]     diagnostic_updaterConfig.cmake
+[3.624s]     diagnostic_updater-config.cmake
+[3.624s] 
+[3.625s]   Add the installation prefix of "diagnostic_updater" to CMAKE_PREFIX_PATH or
+[3.625s]   set "diagnostic_updater_DIR" to a directory containing one of the above
+[3.625s]   files.  If "diagnostic_updater" provides a separate development package or
+[3.625s]   SDK, be sure it has been installed.
+[3.625s] 
+[3.625s] 
+[3.626s] -- Configuring incomplete, errors occurred!
+[3.626s] See also "/home/jason/Desktop/zam_ws/build/realsense2_camera/CMakeFiles/CMakeOutput.log".
+[3.627s] See also "/home/jason/Desktop/zam_ws/build/realsense2_camera/CMakeFiles/CMakeError.log".
+[3.638s] Invoked command in '/home/jason/Desktop/zam_ws/build/realsense2_camera' returned '1': AMENT_PREFIX_PATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs:/home/jason/Desktop/zam_ws/src/AutoCarROS2/install/launches:/home/jason/Desktop/zam_ws/src/AutoCarROS2/install/autocar_nav:/home/jason/Desktop/zam_ws/src/AutoCarROS2/install/autocar_msgs:/home/jason/Desktop/zam_ws/src/AutoCarROS2/install/autocar_map:/home/jason/Desktop/zam_ws/src/AutoCarROS2/install/autocar_gazebo:/home/jason/Desktop/zam_ws/src/AutoCarROS2/install/autocar_description:/home/jason/Desktop/zam_ws/install/launches:/home/jason/Desktop/zam_ws/install/autocar_nav:/home/jason/Desktop/zam_ws/install/autocar_msgs:/home/jason/Desktop/zam_ws/install/autocar_map:/home/jason/Desktop/zam_ws/install/autocar_gazebo:/home/jason/Desktop/zam_ws/install/autocar_description:/home/jason/Desktop/autocarws/install/launches:/home/jason/Desktop/autocarws/install/autocar_nav:/home/jason/Desktop/autocarws/install/autocar_msgs:/home/jason/Desktop/autocarws/install/autocar_map:/home/jason/Desktop/autocarws/install/autocar_gazebo:/home/jason/Desktop/autocarws/install/autocar_description:/opt/ros/foxy LD_LIBRARY_PATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jason/Desktop/zam_ws/src/realsense-ros/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/zam_ws/install/realsense2_camera

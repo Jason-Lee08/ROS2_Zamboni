@@ -1,0 +1,8 @@
+{
+  "package_name": "autocar_msgs",
+  "non_idl_tuples": [
+    "/home/jason/Desktop/zam_ws/src/AutoCarROS2/autocar_msgs:msg/Path2D.msg",
+    "/home/jason/Desktop/zam_ws/src/AutoCarROS2/autocar_msgs:msg/State2D.msg",
+    "/home/jason/Desktop/zam_ws/src/AutoCarROS2/autocar_msgs:msg/Twist2D.msg"
+  ]
+}

@@ -1,0 +1,6 @@
+Invoking command in '/home/jason/Desktop/zam_ws/build/launches': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jason/Desktop/zam_ws/src/AutoCarROS2/launches -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/zam_ws/install/launches
+Invoked command in '/home/jason/Desktop/zam_ws/build/launches' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jason/Desktop/zam_ws/src/AutoCarROS2/launches -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/zam_ws/install/launches
+Invoking command in '/home/jason/Desktop/zam_ws/build/launches': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/launches -- -j4 -l4
+Invoked command in '/home/jason/Desktop/zam_ws/build/launches' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/launches -- -j4 -l4
+Invoking command in '/home/jason/Desktop/zam_ws/build/launches': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/launches
+Invoked command in '/home/jason/Desktop/zam_ws/build/launches' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/launches

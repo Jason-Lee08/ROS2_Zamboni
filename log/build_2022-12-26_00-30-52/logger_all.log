@@ -1,0 +1,803 @@
+[0.857s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.857s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8a834651c0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8a834651c0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8a83465700>)
+[0.974s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.974s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.974s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.974s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.974s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.975s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.975s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jason/Desktop/zam_ws'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2) by extensions ['ignore', 'ignore_ament_install']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2) by extension 'ignore'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2) by extension 'ignore_ament_install'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2) by extensions ['colcon_pkg']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2) by extension 'colcon_pkg'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2) by extensions ['colcon_meta']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2) by extension 'colcon_meta'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2) by extensions ['ros']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2) by extension 'ros'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2) by extensions ['cmake', 'python']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2) by extension 'cmake'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2) by extension 'python'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2) by extensions ['python_setup_py']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2) by extension 'python_setup_py'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_description) by extensions ['ignore', 'ignore_ament_install']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_description) by extension 'ignore'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_description) by extension 'ignore_ament_install'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_description) by extensions ['colcon_pkg']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_description) by extension 'colcon_pkg'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_description) by extensions ['colcon_meta']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_description) by extension 'colcon_meta'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_description) by extensions ['ros']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_description) by extension 'ros'
+[1.056s] DEBUG:colcon.colcon_core.package_identification:Package 'src/AutoCarROS2/autocar_description' with type 'ros.ament_cmake' and name 'autocar_description'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_gazebo) by extension 'ignore'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_gazebo) by extension 'ignore_ament_install'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_gazebo) by extensions ['colcon_pkg']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_gazebo) by extension 'colcon_pkg'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_gazebo) by extensions ['colcon_meta']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_gazebo) by extension 'colcon_meta'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_gazebo) by extensions ['ros']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_gazebo) by extension 'ros'
+[1.059s] DEBUG:colcon.colcon_core.package_identification:Package 'src/AutoCarROS2/autocar_gazebo' with type 'ros.ament_cmake' and name 'autocar_gazebo'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_map) by extensions ['ignore', 'ignore_ament_install']
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_map) by extension 'ignore'
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_map) by extension 'ignore_ament_install'
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_map) by extensions ['colcon_pkg']
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_map) by extension 'colcon_pkg'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_map) by extensions ['colcon_meta']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_map) by extension 'colcon_meta'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_map) by extensions ['ros']
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_map) by extension 'ros'
+[1.069s] DEBUG:colcon.colcon_core.package_identification:Package 'src/AutoCarROS2/autocar_map' with type 'ros.ament_cmake' and name 'autocar_map'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_msgs) by extension 'ignore'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_msgs) by extension 'ignore_ament_install'
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_msgs) by extensions ['colcon_pkg']
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_msgs) by extension 'colcon_pkg'
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_msgs) by extensions ['colcon_meta']
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_msgs) by extension 'colcon_meta'
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_msgs) by extensions ['ros']
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_msgs) by extension 'ros'
+[1.075s] DEBUG:colcon.colcon_core.package_identification:Package 'src/AutoCarROS2/autocar_msgs' with type 'ros.ament_cmake' and name 'autocar_msgs'
+[1.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_nav) by extensions ['ignore', 'ignore_ament_install']
+[1.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_nav) by extension 'ignore'
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_nav) by extension 'ignore_ament_install'
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_nav) by extensions ['colcon_pkg']
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_nav) by extension 'colcon_pkg'
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_nav) by extensions ['colcon_meta']
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_nav) by extension 'colcon_meta'
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_nav) by extensions ['ros']
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/autocar_nav) by extension 'ros'
+[1.077s] DEBUG:colcon.colcon_core.package_identification:Package 'src/AutoCarROS2/autocar_nav' with type 'ros.ament_cmake' and name 'autocar_nav'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/launches) by extensions ['ignore', 'ignore_ament_install']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/launches) by extension 'ignore'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/launches) by extension 'ignore_ament_install'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/launches) by extensions ['colcon_pkg']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/launches) by extension 'colcon_pkg'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/launches) by extensions ['colcon_meta']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/launches) by extension 'colcon_meta'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/launches) by extensions ['ros']
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/launches) by extension 'ros'
+[1.080s] DEBUG:colcon.colcon_core.package_identification:Package 'src/AutoCarROS2/launches' with type 'ros.ament_cmake' and name 'launches'
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/resources) by extensions ['ignore', 'ignore_ament_install']
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/resources) by extension 'ignore'
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/resources) by extension 'ignore_ament_install'
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/resources) by extensions ['colcon_pkg']
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/resources) by extension 'colcon_pkg'
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/resources) by extensions ['colcon_meta']
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/resources) by extension 'colcon_meta'
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/resources) by extensions ['ros']
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/resources) by extension 'ros'
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/resources) by extensions ['cmake', 'python']
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/resources) by extension 'cmake'
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/resources) by extension 'python'
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/resources) by extensions ['python_setup_py']
+[1.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/AutoCarROS2/resources) by extension 'python_setup_py'
+[1.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extensions ['ignore', 'ignore_ament_install']
+[1.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extension 'ignore'
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extension 'ignore_ament_install'
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extensions ['colcon_pkg']
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extension 'colcon_pkg'
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extensions ['colcon_meta']
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extension 'colcon_meta'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extensions ['ros']
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extension 'ros'
+[1.089s] DEBUG:colcon.colcon_core.package_identification:Package 'src/keyboard_control' with type 'ros.ament_python' and name 'keyboard_control'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ignore', 'ignore_ament_install']
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore_ament_install'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_pkg']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_pkg'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_meta']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_meta'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ros']
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ros'
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['cmake', 'python']
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'cmake'
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['python_setup_py']
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python_setup_py'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ignore', 'ignore_ament_install']
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore_ament_install'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_pkg']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_pkg'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_meta']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_meta'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ros']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ros'
+[1.102s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera' with type 'ros.ament_cmake' and name 'realsense2_camera'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore_ament_install'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_pkg']
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_pkg'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_meta']
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_meta'
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ros']
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ros'
+[1.105s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera_msgs' with type 'ros.ament_cmake' and name 'realsense2_camera_msgs'
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ignore', 'ignore_ament_install']
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore'
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore_ament_install'
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_pkg']
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_pkg'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_meta']
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_meta'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ros']
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ros'
+[1.107s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_description' with type 'ros.ament_cmake' and name 'realsense2_description'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore_ament_install'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_pkg']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_pkg'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_meta']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_meta'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ros']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ros'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['cmake', 'python']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'cmake'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['python_setup_py']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python_setup_py'
+[1.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.194s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/jason/Desktop/zam_ws/install
+[1.204s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 341 installed packages in /opt/ros/foxy
+[1.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.601s] Level 5:colcon.colcon_core.verb:set package 'autocar_description' build argument 'cmake_args' from command line to 'None'
+[1.601s] Level 5:colcon.colcon_core.verb:set package 'autocar_description' build argument 'cmake_target' from command line to 'None'
+[1.601s] Level 5:colcon.colcon_core.verb:set package 'autocar_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.602s] Level 5:colcon.colcon_core.verb:set package 'autocar_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.602s] Level 5:colcon.colcon_core.verb:set package 'autocar_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.602s] Level 5:colcon.colcon_core.verb:set package 'autocar_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.602s] Level 5:colcon.colcon_core.verb:set package 'autocar_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.602s] Level 5:colcon.colcon_core.verb:set package 'autocar_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.602s] Level 5:colcon.colcon_core.verb:set package 'autocar_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.602s] DEBUG:colcon.colcon_core.verb:Building package 'autocar_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jason/Desktop/zam_ws/build/autocar_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jason/Desktop/zam_ws/install/autocar_description', 'merge_install': False, 'path': '/home/jason/Desktop/zam_ws/src/AutoCarROS2/autocar_description', 'symlink_install': True, 'test_result_base': None}
+[1.604s] Level 5:colcon.colcon_core.verb:set package 'autocar_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.604s] Level 5:colcon.colcon_core.verb:set package 'autocar_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.604s] Level 5:colcon.colcon_core.verb:set package 'autocar_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.604s] Level 5:colcon.colcon_core.verb:set package 'autocar_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.604s] Level 5:colcon.colcon_core.verb:set package 'autocar_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.604s] Level 5:colcon.colcon_core.verb:set package 'autocar_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.604s] Level 5:colcon.colcon_core.verb:set package 'autocar_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.605s] Level 5:colcon.colcon_core.verb:set package 'autocar_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.605s] Level 5:colcon.colcon_core.verb:set package 'autocar_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.605s] DEBUG:colcon.colcon_core.verb:Building package 'autocar_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jason/Desktop/zam_ws/build/autocar_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jason/Desktop/zam_ws/install/autocar_gazebo', 'merge_install': False, 'path': '/home/jason/Desktop/zam_ws/src/AutoCarROS2/autocar_gazebo', 'symlink_install': True, 'test_result_base': None}
+[1.609s] Level 5:colcon.colcon_core.verb:set package 'autocar_map' build argument 'cmake_args' from command line to 'None'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'autocar_map' build argument 'cmake_target' from command line to 'None'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'autocar_map' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'autocar_map' build argument 'cmake_clean_cache' from command line to 'False'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'autocar_map' build argument 'cmake_clean_first' from command line to 'False'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'autocar_map' build argument 'cmake_force_configure' from command line to 'False'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'autocar_map' build argument 'ament_cmake_args' from command line to 'None'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'autocar_map' build argument 'catkin_cmake_args' from command line to 'None'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'autocar_map' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.610s] DEBUG:colcon.colcon_core.verb:Building package 'autocar_map' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jason/Desktop/zam_ws/build/autocar_map', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jason/Desktop/zam_ws/install/autocar_map', 'merge_install': False, 'path': '/home/jason/Desktop/zam_ws/src/AutoCarROS2/autocar_map', 'symlink_install': True, 'test_result_base': None}
+[1.612s] Level 5:colcon.colcon_core.verb:set package 'autocar_msgs' build argument 'cmake_args' from command line to 'None'
+[1.612s] Level 5:colcon.colcon_core.verb:set package 'autocar_msgs' build argument 'cmake_target' from command line to 'None'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'autocar_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'autocar_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'autocar_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'autocar_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'autocar_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'autocar_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'autocar_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.613s] DEBUG:colcon.colcon_core.verb:Building package 'autocar_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jason/Desktop/zam_ws/build/autocar_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jason/Desktop/zam_ws/install/autocar_msgs', 'merge_install': False, 'path': '/home/jason/Desktop/zam_ws/src/AutoCarROS2/autocar_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.615s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_args' from command line to 'None'
+[1.615s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_target' from command line to 'None'
+[1.615s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.616s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.616s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.616s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.616s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.616s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.616s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.616s] DEBUG:colcon.colcon_core.verb:Building package 'keyboard_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jason/Desktop/zam_ws/build/keyboard_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jason/Desktop/zam_ws/install/keyboard_control', 'merge_install': False, 'path': '/home/jason/Desktop/zam_ws/src/keyboard_control', 'symlink_install': True, 'test_result_base': None}
+[1.620s] Level 5:colcon.colcon_core.verb:set package 'launches' build argument 'cmake_args' from command line to 'None'
+[1.620s] Level 5:colcon.colcon_core.verb:set package 'launches' build argument 'cmake_target' from command line to 'None'
+[1.620s] Level 5:colcon.colcon_core.verb:set package 'launches' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.620s] Level 5:colcon.colcon_core.verb:set package 'launches' build argument 'cmake_clean_cache' from command line to 'False'
+[1.621s] Level 5:colcon.colcon_core.verb:set package 'launches' build argument 'cmake_clean_first' from command line to 'False'
+[1.621s] Level 5:colcon.colcon_core.verb:set package 'launches' build argument 'cmake_force_configure' from command line to 'False'
+[1.621s] Level 5:colcon.colcon_core.verb:set package 'launches' build argument 'ament_cmake_args' from command line to 'None'
+[1.621s] Level 5:colcon.colcon_core.verb:set package 'launches' build argument 'catkin_cmake_args' from command line to 'None'
+[1.621s] Level 5:colcon.colcon_core.verb:set package 'launches' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.621s] DEBUG:colcon.colcon_core.verb:Building package 'launches' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jason/Desktop/zam_ws/build/launches', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jason/Desktop/zam_ws/install/launches', 'merge_install': False, 'path': '/home/jason/Desktop/zam_ws/src/AutoCarROS2/launches', 'symlink_install': True, 'test_result_base': None}
+[1.623s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_args' from command line to 'None'
+[1.624s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[1.624s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.624s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.624s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.624s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.624s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.624s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.624s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.624s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jason/Desktop/zam_ws/build/realsense2_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs', 'merge_install': False, 'path': '/home/jason/Desktop/zam_ws/src/realsense-ros/realsense2_camera_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.627s] Level 5:colcon.colcon_core.verb:set package 'autocar_nav' build argument 'cmake_args' from command line to 'None'
+[1.627s] Level 5:colcon.colcon_core.verb:set package 'autocar_nav' build argument 'cmake_target' from command line to 'None'
+[1.627s] Level 5:colcon.colcon_core.verb:set package 'autocar_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.627s] Level 5:colcon.colcon_core.verb:set package 'autocar_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[1.627s] Level 5:colcon.colcon_core.verb:set package 'autocar_nav' build argument 'cmake_clean_first' from command line to 'False'
+[1.627s] Level 5:colcon.colcon_core.verb:set package 'autocar_nav' build argument 'cmake_force_configure' from command line to 'False'
+[1.627s] Level 5:colcon.colcon_core.verb:set package 'autocar_nav' build argument 'ament_cmake_args' from command line to 'None'
+[1.627s] Level 5:colcon.colcon_core.verb:set package 'autocar_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[1.627s] Level 5:colcon.colcon_core.verb:set package 'autocar_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.627s] DEBUG:colcon.colcon_core.verb:Building package 'autocar_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jason/Desktop/zam_ws/build/autocar_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jason/Desktop/zam_ws/install/autocar_nav', 'merge_install': False, 'path': '/home/jason/Desktop/zam_ws/src/AutoCarROS2/autocar_nav', 'symlink_install': True, 'test_result_base': None}
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_args' from command line to 'None'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target' from command line to 'None'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[1.631s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[1.631s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[1.631s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.631s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jason/Desktop/zam_ws/build/realsense2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jason/Desktop/zam_ws/install/realsense2_camera', 'merge_install': False, 'path': '/home/jason/Desktop/zam_ws/src/realsense-ros/realsense2_camera', 'symlink_install': True, 'test_result_base': None}
+[1.633s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_args' from command line to 'None'
+[1.633s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target' from command line to 'None'
+[1.633s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.634s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.634s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.634s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.634s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.634s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.634s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.634s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jason/Desktop/zam_ws/build/realsense2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jason/Desktop/zam_ws/install/realsense2_description', 'merge_install': False, 'path': '/home/jason/Desktop/zam_ws/src/realsense-ros/realsense2_description', 'symlink_install': True, 'test_result_base': None}
+[1.636s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.648s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.648s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jason/Desktop/zam_ws/src/realsense-ros/realsense2_camera_msgs' with build type 'ament_cmake'
+[1.648s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jason/Desktop/zam_ws/src/realsense-ros/realsense2_camera_msgs'
+[1.661s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.661s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.661s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.686s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jason/Desktop/zam_ws/src/AutoCarROS2/autocar_msgs' with build type 'ament_cmake'
+[1.687s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jason/Desktop/zam_ws/src/AutoCarROS2/autocar_msgs'
+[1.692s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.692s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.720s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jason/Desktop/zam_ws/src/AutoCarROS2/autocar_description' with build type 'ament_cmake'
+[1.721s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jason/Desktop/zam_ws/src/AutoCarROS2/autocar_description'
+[1.724s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.725s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.752s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jason/Desktop/zam_ws/src/AutoCarROS2/autocar_gazebo' with build type 'ament_cmake'
+[1.753s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jason/Desktop/zam_ws/src/AutoCarROS2/autocar_gazebo'
+[1.756s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.756s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/Desktop/zam_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/realsense2_camera_msgs -- -j4 -l4
+[1.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/Desktop/zam_ws/build/autocar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/autocar_msgs -- -j4 -l4
+[1.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/Desktop/zam_ws/build/autocar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/autocar_description -- -j4 -l4
+[1.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/Desktop/zam_ws/build/autocar_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/autocar_gazebo -- -j4 -l4
+[2.110s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jason/Desktop/zam_ws/build/autocar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/autocar_description -- -j4 -l4
+[2.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jason/Desktop/zam_ws/build/autocar_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/autocar_gazebo -- -j4 -l4
+[2.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/Desktop/zam_ws/build/autocar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/autocar_description
+[2.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/Desktop/zam_ws/build/autocar_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/autocar_gazebo
+[2.569s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_description)
+[2.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jason/Desktop/zam_ws/build/autocar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/autocar_description
+[2.585s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_description' for CMake module files
+[2.587s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_description' for CMake config files
+[2.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_description', 'cmake_prefix_path')
+[2.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/hook/cmake_prefix_path.ps1'
+[2.592s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/hook/cmake_prefix_path.dsv'
+[2.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/hook/cmake_prefix_path.sh'
+[2.602s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_description/bin'
+[2.603s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_description/lib/pkgconfig/autocar_description.pc'
+[2.604s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_description/lib/python3.8/site-packages'
+[2.604s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_description/bin'
+[2.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/package.ps1'
+[2.609s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/package.dsv'
+[2.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/package.sh'
+[2.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/package.bash'
+[2.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/package.zsh'
+[2.616s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jason/Desktop/zam_ws/install/autocar_description/share/colcon-core/packages/autocar_description)
+[2.655s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_gazebo)
+[2.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jason/Desktop/zam_ws/build/autocar_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/autocar_gazebo
+[2.662s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_gazebo' for CMake module files
+[2.663s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_gazebo' for CMake config files
+[2.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_gazebo', 'cmake_prefix_path')
+[2.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/hook/cmake_prefix_path.ps1'
+[2.667s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/hook/cmake_prefix_path.dsv'
+[2.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/hook/cmake_prefix_path.sh'
+[2.674s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_gazebo/bin'
+[2.674s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_gazebo/lib/pkgconfig/autocar_gazebo.pc'
+[2.675s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_gazebo/lib/python3.8/site-packages'
+[2.675s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_gazebo/bin'
+[2.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/package.ps1'
+[2.681s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/package.dsv'
+[2.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/package.sh'
+[2.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/package.bash'
+[2.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/package.zsh'
+[2.684s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jason/Desktop/zam_ws/install/autocar_gazebo/share/colcon-core/packages/autocar_gazebo)
+[2.737s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_description)
+[2.743s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_description' for CMake module files
+[2.750s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_description' for CMake config files
+[2.753s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_description', 'cmake_prefix_path')
+[2.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/hook/cmake_prefix_path.ps1'
+[2.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/hook/cmake_prefix_path.dsv'
+[2.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/hook/cmake_prefix_path.sh'
+[2.760s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_description/bin'
+[2.760s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_description/lib/pkgconfig/autocar_description.pc'
+[2.760s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_description/lib/python3.8/site-packages'
+[2.761s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_description/bin'
+[2.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/package.ps1'
+[2.781s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/package.dsv'
+[2.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/package.sh'
+[2.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/package.bash'
+[2.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/package.zsh'
+[2.785s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jason/Desktop/zam_ws/install/autocar_description/share/colcon-core/packages/autocar_description)
+[2.786s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jason/Desktop/zam_ws/src/AutoCarROS2/autocar_map' with build type 'ament_cmake'
+[2.786s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jason/Desktop/zam_ws/src/AutoCarROS2/autocar_map'
+[2.790s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.791s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/Desktop/zam_ws/build/autocar_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/autocar_map -- -j4 -l4
+[2.859s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_gazebo)
+[2.863s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_gazebo' for CMake module files
+[2.865s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_gazebo' for CMake config files
+[2.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_gazebo', 'cmake_prefix_path')
+[2.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/hook/cmake_prefix_path.ps1'
+[2.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/hook/cmake_prefix_path.dsv'
+[2.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/hook/cmake_prefix_path.sh'
+[2.886s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_gazebo/bin'
+[2.886s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_gazebo/lib/pkgconfig/autocar_gazebo.pc'
+[2.887s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_gazebo/lib/python3.8/site-packages'
+[2.887s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_gazebo/bin'
+[2.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/package.ps1'
+[2.891s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/package.dsv'
+[2.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/package.sh'
+[2.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/package.bash'
+[2.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/package.zsh'
+[2.905s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jason/Desktop/zam_ws/install/autocar_gazebo/share/colcon-core/packages/autocar_gazebo)
+[2.911s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jason/Desktop/zam_ws/src/keyboard_control' with build type 'ament_python'
+[2.912s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_control', 'ament_prefix_path')
+[2.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/keyboard_control/share/keyboard_control/hook/ament_prefix_path.ps1'
+[2.925s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/keyboard_control/share/keyboard_control/hook/ament_prefix_path.dsv'
+[2.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/keyboard_control/share/keyboard_control/hook/ament_prefix_path.sh'
+[2.932s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.932s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.525s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jason/Desktop/zam_ws/src/keyboard_control'
+[3.528s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.528s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jason/Desktop/zam_ws/build/autocar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/autocar_msgs -- -j4 -l4
+[3.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jason/Desktop/zam_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/realsense2_camera_msgs -- -j4 -l4
+[3.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jason/Desktop/zam_ws/build/autocar_map' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/autocar_map -- -j4 -l4
+[3.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/Desktop/zam_ws/build/autocar_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/autocar_map
+[3.744s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_map)
+[3.749s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_map' for CMake module files
+[3.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jason/Desktop/zam_ws/build/autocar_map' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/autocar_map
+[3.753s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_map' for CMake config files
+[3.754s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_map', 'cmake_prefix_path')
+[3.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/hook/cmake_prefix_path.ps1'
+[3.771s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/hook/cmake_prefix_path.dsv'
+[3.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/hook/cmake_prefix_path.sh'
+[3.773s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_map/lib'
+[3.773s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_map/bin'
+[3.773s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_map/lib/pkgconfig/autocar_map.pc'
+[3.774s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_map/lib/python3.8/site-packages'
+[3.774s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_map/bin'
+[3.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/package.ps1'
+[3.778s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/package.dsv'
+[3.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/package.sh'
+[3.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/package.bash'
+[3.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/package.zsh'
+[3.782s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jason/Desktop/zam_ws/install/autocar_map/share/colcon-core/packages/autocar_map)
+[3.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/Desktop/zam_ws/build/autocar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/autocar_msgs
+[3.865s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_map)
+[3.869s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_map' for CMake module files
+[3.876s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_map' for CMake config files
+[3.876s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_map', 'cmake_prefix_path')
+[3.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/hook/cmake_prefix_path.ps1'
+[3.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/hook/cmake_prefix_path.dsv'
+[3.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/hook/cmake_prefix_path.sh'
+[3.883s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_map/lib'
+[3.883s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_map/bin'
+[3.883s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_map/lib/pkgconfig/autocar_map.pc'
+[3.883s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_map/lib/python3.8/site-packages'
+[3.884s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_map/bin'
+[3.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/package.ps1'
+[3.892s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/package.dsv'
+[3.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/package.sh'
+[3.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/package.bash'
+[3.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/package.zsh'
+[3.905s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jason/Desktop/zam_ws/install/autocar_map/share/colcon-core/packages/autocar_map)
+[3.906s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jason/Desktop/zam_ws/src/AutoCarROS2/launches' with build type 'ament_cmake'
+[3.908s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jason/Desktop/zam_ws/src/AutoCarROS2/launches'
+[3.911s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.915s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/Desktop/zam_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/realsense2_camera_msgs
+[3.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/Desktop/zam_ws/build/launches': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/launches -- -j4 -l4
+[4.010s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_msgs)
+[4.016s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jason/Desktop/zam_ws/build/autocar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/autocar_msgs
+[4.017s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_msgs' for CMake module files
+[4.019s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_msgs' for CMake config files
+[4.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_msgs', 'cmake_prefix_path')
+[4.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/hook/cmake_prefix_path.ps1'
+[4.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/hook/cmake_prefix_path.dsv'
+[4.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/hook/cmake_prefix_path.sh'
+[4.027s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_msgs/lib'
+[4.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_msgs', 'ld_library_path_lib')
+[4.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/hook/ld_library_path_lib.ps1'
+[4.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/hook/ld_library_path_lib.dsv'
+[4.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/hook/ld_library_path_lib.sh'
+[4.033s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_msgs/bin'
+[4.033s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_msgs/lib/pkgconfig/autocar_msgs.pc'
+[4.034s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_msgs/lib/python3.8/site-packages'
+[4.034s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_msgs', 'pythonpath')
+[4.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/hook/pythonpath.ps1'
+[4.042s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/hook/pythonpath.dsv'
+[4.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/hook/pythonpath.sh'
+[4.045s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_msgs/bin'
+[4.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/package.ps1'
+[4.050s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/package.dsv'
+[4.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/package.sh'
+[4.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/package.bash'
+[4.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/package.zsh'
+[4.053s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jason/Desktop/zam_ws/install/autocar_msgs/share/colcon-core/packages/autocar_msgs)
+[4.112s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jason/Desktop/zam_ws/build/launches' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/launches -- -j4 -l4
+[4.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/Desktop/zam_ws/build/launches': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/launches
+[4.239s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launches)
+[4.244s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/launches' for CMake module files
+[4.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jason/Desktop/zam_ws/build/launches' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/launches
+[4.246s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/launches' for CMake config files
+[4.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('launches', 'cmake_prefix_path')
+[4.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/launches/share/launches/hook/cmake_prefix_path.ps1'
+[4.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/launches/share/launches/hook/cmake_prefix_path.dsv'
+[4.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/launches/share/launches/hook/cmake_prefix_path.sh'
+[4.253s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/launches/bin'
+[4.253s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/launches/lib/pkgconfig/launches.pc'
+[4.253s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/launches/lib/python3.8/site-packages'
+[4.254s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/launches/bin'
+[4.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/launches/share/launches/package.ps1'
+[4.258s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jason/Desktop/zam_ws/install/launches/share/launches/package.dsv'
+[4.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/launches/share/launches/package.sh'
+[4.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/launches/share/launches/package.bash'
+[4.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/launches/share/launches/package.zsh'
+[4.260s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jason/Desktop/zam_ws/install/launches/share/colcon-core/packages/launches)
+[4.275s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera_msgs)
+[4.280s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs' for CMake module files
+[4.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jason/Desktop/zam_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/realsense2_camera_msgs
+[4.283s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs' for CMake config files
+[4.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[4.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[4.287s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[4.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[4.288s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib'
+[4.289s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[4.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[4.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[4.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[4.295s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/bin'
+[4.295s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[4.295s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages'
+[4.295s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'pythonpath')
+[4.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/pythonpath.ps1'
+[4.299s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/pythonpath.dsv'
+[4.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/pythonpath.sh'
+[4.303s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/bin'
+[4.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[4.307s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[4.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[4.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[4.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[4.312s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[4.370s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launches)
+[4.375s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/launches' for CMake module files
+[4.376s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/launches' for CMake config files
+[4.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('launches', 'cmake_prefix_path')
+[4.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/launches/share/launches/hook/cmake_prefix_path.ps1'
+[4.382s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/launches/share/launches/hook/cmake_prefix_path.dsv'
+[4.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/launches/share/launches/hook/cmake_prefix_path.sh'
+[4.384s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/launches/bin'
+[4.384s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/launches/lib/pkgconfig/launches.pc'
+[4.384s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/launches/lib/python3.8/site-packages'
+[4.385s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/launches/bin'
+[4.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/launches/share/launches/package.ps1'
+[4.388s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jason/Desktop/zam_ws/install/launches/share/launches/package.dsv'
+[4.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/launches/share/launches/package.sh'
+[4.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/launches/share/launches/package.bash'
+[4.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/launches/share/launches/package.zsh'
+[4.396s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jason/Desktop/zam_ws/install/launches/share/colcon-core/packages/launches)
+[4.446s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_msgs)
+[4.452s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_msgs' for CMake module files
+[4.453s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_msgs' for CMake config files
+[4.454s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_msgs', 'cmake_prefix_path')
+[4.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/hook/cmake_prefix_path.ps1'
+[4.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/hook/cmake_prefix_path.dsv'
+[4.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/hook/cmake_prefix_path.sh'
+[4.460s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_msgs/lib'
+[4.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_msgs', 'ld_library_path_lib')
+[4.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/hook/ld_library_path_lib.ps1'
+[4.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/hook/ld_library_path_lib.dsv'
+[4.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/hook/ld_library_path_lib.sh'
+[4.466s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_msgs/bin'
+[4.466s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_msgs/lib/pkgconfig/autocar_msgs.pc'
+[4.467s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_msgs/lib/python3.8/site-packages'
+[4.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_msgs', 'pythonpath')
+[4.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/hook/pythonpath.ps1'
+[4.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/hook/pythonpath.dsv'
+[4.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/hook/pythonpath.sh'
+[4.472s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_msgs/bin'
+[4.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/package.ps1'
+[4.476s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/package.dsv'
+[4.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/package.sh'
+[4.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/package.bash'
+[4.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_msgs/share/autocar_msgs/package.zsh'
+[4.481s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jason/Desktop/zam_ws/install/autocar_msgs/share/colcon-core/packages/autocar_msgs)
+[4.483s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jason/Desktop/zam_ws/src/AutoCarROS2/autocar_nav' with build type 'ament_cmake'
+[4.483s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jason/Desktop/zam_ws/src/AutoCarROS2/autocar_nav'
+[4.486s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/Desktop/zam_ws/build/autocar_nav': CMAKE_PREFIX_PATH=/home/jason/Desktop/zam_ws/install/autocar_msgs:/home/jason/Desktop/zam_ws/install/realsense2_description:/home/jason/Desktop/zam_ws/install/realsense2_camera:/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs:/home/jason/Desktop/zam_ws/install/launches:/home/jason/Desktop/zam_ws/install/autocar_nav:/home/jason/Desktop/zam_ws/install/autocar_map:/home/jason/Desktop/zam_ws/install/autocar_gazebo:/home/jason/Desktop/zam_ws/install/autocar_description:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/jason/Desktop/zam_ws/install/autocar_msgs/lib:/home/jason/Desktop/zam_ws/install/realsense2_camera/lib:/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/jason/Desktop/zam_ws/install/autocar_msgs/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/build/zam_tools:/home/jason/Desktop/zam_ws/install/zam_tools/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/build/keyboard_control:/home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/install/autocar_nav/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/autocar_nav -- -j4 -l4
+[4.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jason/Desktop/zam_ws/build/autocar_nav' returned '0': CMAKE_PREFIX_PATH=/home/jason/Desktop/zam_ws/install/autocar_msgs:/home/jason/Desktop/zam_ws/install/realsense2_description:/home/jason/Desktop/zam_ws/install/realsense2_camera:/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs:/home/jason/Desktop/zam_ws/install/launches:/home/jason/Desktop/zam_ws/install/autocar_nav:/home/jason/Desktop/zam_ws/install/autocar_map:/home/jason/Desktop/zam_ws/install/autocar_gazebo:/home/jason/Desktop/zam_ws/install/autocar_description:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/jason/Desktop/zam_ws/install/autocar_msgs/lib:/home/jason/Desktop/zam_ws/install/realsense2_camera/lib:/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/jason/Desktop/zam_ws/install/autocar_msgs/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/build/zam_tools:/home/jason/Desktop/zam_ws/install/zam_tools/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/build/keyboard_control:/home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/install/autocar_nav/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/autocar_nav -- -j4 -l4
+[4.671s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera_msgs)
+[4.675s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs' for CMake module files
+[4.676s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs' for CMake config files
+[4.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[4.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[4.683s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[4.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[4.685s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib'
+[4.685s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[4.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[4.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[4.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[4.689s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/bin'
+[4.690s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[4.690s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages'
+[4.690s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'pythonpath')
+[4.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/pythonpath.ps1'
+[4.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/pythonpath.dsv'
+[4.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/pythonpath.sh'
+[4.695s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/bin'
+[4.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[4.698s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[4.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[4.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[4.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[4.701s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[4.702s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jason/Desktop/zam_ws/src/realsense-ros/realsense2_camera' with build type 'ament_cmake'
+[4.702s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jason/Desktop/zam_ws/src/realsense-ros/realsense2_camera'
+[4.706s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.706s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.721s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jason/Desktop/zam_ws/src/realsense-ros/realsense2_description' with build type 'ament_cmake'
+[4.722s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jason/Desktop/zam_ws/src/realsense-ros/realsense2_description'
+[4.725s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.725s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/Desktop/zam_ws/build/keyboard_control': PYTHONPATH=/home/jason/Desktop/zam_ws/build/keyboard_control/prefix_override:/home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jason/Desktop/zam_ws/build/keyboard_control/build --no-deps install_data
+[4.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/Desktop/zam_ws/build/autocar_nav': CMAKE_PREFIX_PATH=/home/jason/Desktop/zam_ws/install/autocar_msgs:/home/jason/Desktop/zam_ws/install/realsense2_description:/home/jason/Desktop/zam_ws/install/realsense2_camera:/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs:/home/jason/Desktop/zam_ws/install/launches:/home/jason/Desktop/zam_ws/install/autocar_nav:/home/jason/Desktop/zam_ws/install/autocar_map:/home/jason/Desktop/zam_ws/install/autocar_gazebo:/home/jason/Desktop/zam_ws/install/autocar_description:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/jason/Desktop/zam_ws/install/autocar_msgs/lib:/home/jason/Desktop/zam_ws/install/realsense2_camera/lib:/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/jason/Desktop/zam_ws/install/autocar_msgs/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/build/zam_tools:/home/jason/Desktop/zam_ws/install/zam_tools/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/build/keyboard_control:/home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/install/autocar_nav/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/autocar_nav
+[4.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/Desktop/zam_ws/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs:/home/jason/Desktop/zam_ws/install/realsense2_description:/home/jason/Desktop/zam_ws/install/realsense2_camera:/home/jason/Desktop/zam_ws/install/launches:/home/jason/Desktop/zam_ws/install/autocar_nav:/home/jason/Desktop/zam_ws/install/autocar_msgs:/home/jason/Desktop/zam_ws/install/autocar_map:/home/jason/Desktop/zam_ws/install/autocar_gazebo:/home/jason/Desktop/zam_ws/install/autocar_description:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib:/home/jason/Desktop/zam_ws/install/realsense2_camera/lib:/home/jason/Desktop/zam_ws/install/autocar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/build/zam_tools:/home/jason/Desktop/zam_ws/install/zam_tools/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/build/keyboard_control:/home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/install/autocar_nav/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/install/autocar_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/realsense2_camera -- -j4 -l4
+[4.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/Desktop/zam_ws/build/realsense2_description': CMAKE_PREFIX_PATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs:/home/jason/Desktop/zam_ws/install/realsense2_description:/home/jason/Desktop/zam_ws/install/realsense2_camera:/home/jason/Desktop/zam_ws/install/launches:/home/jason/Desktop/zam_ws/install/autocar_nav:/home/jason/Desktop/zam_ws/install/autocar_msgs:/home/jason/Desktop/zam_ws/install/autocar_map:/home/jason/Desktop/zam_ws/install/autocar_gazebo:/home/jason/Desktop/zam_ws/install/autocar_description:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib:/home/jason/Desktop/zam_ws/install/realsense2_camera/lib:/home/jason/Desktop/zam_ws/install/autocar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/build/zam_tools:/home/jason/Desktop/zam_ws/install/zam_tools/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/build/keyboard_control:/home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/install/autocar_nav/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/install/autocar_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/realsense2_description -- -j4 -l4
+[4.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jason/Desktop/zam_ws/build/realsense2_description' returned '0': CMAKE_PREFIX_PATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs:/home/jason/Desktop/zam_ws/install/realsense2_description:/home/jason/Desktop/zam_ws/install/realsense2_camera:/home/jason/Desktop/zam_ws/install/launches:/home/jason/Desktop/zam_ws/install/autocar_nav:/home/jason/Desktop/zam_ws/install/autocar_msgs:/home/jason/Desktop/zam_ws/install/autocar_map:/home/jason/Desktop/zam_ws/install/autocar_gazebo:/home/jason/Desktop/zam_ws/install/autocar_description:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib:/home/jason/Desktop/zam_ws/install/realsense2_camera/lib:/home/jason/Desktop/zam_ws/install/autocar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/build/zam_tools:/home/jason/Desktop/zam_ws/install/zam_tools/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/build/keyboard_control:/home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/install/autocar_nav/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/install/autocar_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/realsense2_description -- -j4 -l4
+[4.951s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_nav)
+[4.957s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_nav' for CMake module files
+[4.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jason/Desktop/zam_ws/build/autocar_nav' returned '0': CMAKE_PREFIX_PATH=/home/jason/Desktop/zam_ws/install/autocar_msgs:/home/jason/Desktop/zam_ws/install/realsense2_description:/home/jason/Desktop/zam_ws/install/realsense2_camera:/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs:/home/jason/Desktop/zam_ws/install/launches:/home/jason/Desktop/zam_ws/install/autocar_nav:/home/jason/Desktop/zam_ws/install/autocar_map:/home/jason/Desktop/zam_ws/install/autocar_gazebo:/home/jason/Desktop/zam_ws/install/autocar_description:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/jason/Desktop/zam_ws/install/autocar_msgs/lib:/home/jason/Desktop/zam_ws/install/realsense2_camera/lib:/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/jason/Desktop/zam_ws/install/autocar_msgs/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/build/zam_tools:/home/jason/Desktop/zam_ws/install/zam_tools/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/build/keyboard_control:/home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/install/autocar_nav/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/autocar_nav
+[4.959s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_nav' for CMake config files
+[4.960s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_nav', 'cmake_prefix_path')
+[4.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_nav/share/autocar_nav/hook/cmake_prefix_path.ps1'
+[4.967s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/autocar_nav/share/autocar_nav/hook/cmake_prefix_path.dsv'
+[4.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_nav/share/autocar_nav/hook/cmake_prefix_path.sh'
+[4.969s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_nav/lib'
+[4.969s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_nav/bin'
+[4.969s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_nav/lib/pkgconfig/autocar_nav.pc'
+[4.970s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_nav/lib/python3.8/site-packages'
+[4.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_nav', 'pythonpath')
+[4.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_nav/share/autocar_nav/hook/pythonpath.ps1'
+[4.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/autocar_nav/share/autocar_nav/hook/pythonpath.dsv'
+[4.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_nav/share/autocar_nav/hook/pythonpath.sh'
+[4.976s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_nav/bin'
+[4.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_nav/share/autocar_nav/package.ps1'
+[4.981s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jason/Desktop/zam_ws/install/autocar_nav/share/autocar_nav/package.dsv'
+[4.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_nav/share/autocar_nav/package.sh'
+[4.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_nav/share/autocar_nav/package.bash'
+[4.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_nav/share/autocar_nav/package.zsh'
+[4.984s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jason/Desktop/zam_ws/install/autocar_nav/share/colcon-core/packages/autocar_nav)
+[5.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/Desktop/zam_ws/build/realsense2_description': CMAKE_PREFIX_PATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs:/home/jason/Desktop/zam_ws/install/realsense2_description:/home/jason/Desktop/zam_ws/install/realsense2_camera:/home/jason/Desktop/zam_ws/install/launches:/home/jason/Desktop/zam_ws/install/autocar_nav:/home/jason/Desktop/zam_ws/install/autocar_msgs:/home/jason/Desktop/zam_ws/install/autocar_map:/home/jason/Desktop/zam_ws/install/autocar_gazebo:/home/jason/Desktop/zam_ws/install/autocar_description:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib:/home/jason/Desktop/zam_ws/install/realsense2_camera/lib:/home/jason/Desktop/zam_ws/install/autocar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/build/zam_tools:/home/jason/Desktop/zam_ws/install/zam_tools/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/build/keyboard_control:/home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/install/autocar_nav/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/install/autocar_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/realsense2_description
+[5.116s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_description)
+[5.121s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_description' for CMake module files
+[5.122s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_description' for CMake config files
+[5.123s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[5.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[5.127s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[5.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[5.129s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_description/bin'
+[5.129s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[5.131s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_description/lib/python3.8/site-packages'
+[5.132s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_description/bin'
+[5.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/realsense2_description/share/realsense2_description/package.ps1'
+[5.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jason/Desktop/zam_ws/build/realsense2_description' returned '0': CMAKE_PREFIX_PATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs:/home/jason/Desktop/zam_ws/install/realsense2_description:/home/jason/Desktop/zam_ws/install/realsense2_camera:/home/jason/Desktop/zam_ws/install/launches:/home/jason/Desktop/zam_ws/install/autocar_nav:/home/jason/Desktop/zam_ws/install/autocar_msgs:/home/jason/Desktop/zam_ws/install/autocar_map:/home/jason/Desktop/zam_ws/install/autocar_gazebo:/home/jason/Desktop/zam_ws/install/autocar_description:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib:/home/jason/Desktop/zam_ws/install/realsense2_camera/lib:/home/jason/Desktop/zam_ws/install/autocar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/build/zam_tools:/home/jason/Desktop/zam_ws/install/zam_tools/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/build/keyboard_control:/home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/install/autocar_nav/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/install/autocar_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/realsense2_description
+[5.137s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jason/Desktop/zam_ws/install/realsense2_description/share/realsense2_description/package.dsv'
+[5.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/realsense2_description/share/realsense2_description/package.sh'
+[5.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/realsense2_description/share/realsense2_description/package.bash'
+[5.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/realsense2_description/share/realsense2_description/package.zsh'
+[5.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jason/Desktop/zam_ws/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[5.175s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_nav)
+[5.191s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_nav' for CMake module files
+[5.192s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_nav' for CMake config files
+[5.193s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_nav', 'cmake_prefix_path')
+[5.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_nav/share/autocar_nav/hook/cmake_prefix_path.ps1'
+[5.213s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/autocar_nav/share/autocar_nav/hook/cmake_prefix_path.dsv'
+[5.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_nav/share/autocar_nav/hook/cmake_prefix_path.sh'
+[5.214s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_nav/lib'
+[5.215s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_nav/bin'
+[5.215s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_nav/lib/pkgconfig/autocar_nav.pc'
+[5.215s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_nav/lib/python3.8/site-packages'
+[5.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_nav', 'pythonpath')
+[5.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_nav/share/autocar_nav/hook/pythonpath.ps1'
+[5.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/autocar_nav/share/autocar_nav/hook/pythonpath.dsv'
+[5.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/autocar_nav/share/autocar_nav/hook/pythonpath.sh'
+[5.220s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/autocar_nav/bin'
+[5.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_nav/share/autocar_nav/package.ps1'
+[5.232s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jason/Desktop/zam_ws/install/autocar_nav/share/autocar_nav/package.dsv'
+[5.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_nav/share/autocar_nav/package.sh'
+[5.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_nav/share/autocar_nav/package.bash'
+[5.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/autocar_nav/share/autocar_nav/package.zsh'
+[5.235s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jason/Desktop/zam_ws/install/autocar_nav/share/colcon-core/packages/autocar_nav)
+[5.274s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_description)
+[5.279s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_description' for CMake module files
+[5.280s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_description' for CMake config files
+[5.280s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[5.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[5.283s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[5.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[5.285s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_description/bin'
+[5.285s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[5.285s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_description/lib/python3.8/site-packages'
+[5.285s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_description/bin'
+[5.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/realsense2_description/share/realsense2_description/package.ps1'
+[5.289s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jason/Desktop/zam_ws/install/realsense2_description/share/realsense2_description/package.dsv'
+[5.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/realsense2_description/share/realsense2_description/package.sh'
+[5.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/realsense2_description/share/realsense2_description/package.bash'
+[5.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/realsense2_description/share/realsense2_description/package.zsh'
+[5.292s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jason/Desktop/zam_ws/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[5.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jason/Desktop/zam_ws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs:/home/jason/Desktop/zam_ws/install/realsense2_description:/home/jason/Desktop/zam_ws/install/realsense2_camera:/home/jason/Desktop/zam_ws/install/launches:/home/jason/Desktop/zam_ws/install/autocar_nav:/home/jason/Desktop/zam_ws/install/autocar_msgs:/home/jason/Desktop/zam_ws/install/autocar_map:/home/jason/Desktop/zam_ws/install/autocar_gazebo:/home/jason/Desktop/zam_ws/install/autocar_description:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib:/home/jason/Desktop/zam_ws/install/realsense2_camera/lib:/home/jason/Desktop/zam_ws/install/autocar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/build/zam_tools:/home/jason/Desktop/zam_ws/install/zam_tools/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/build/keyboard_control:/home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/install/autocar_nav/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/install/autocar_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/realsense2_camera -- -j4 -l4
+[5.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/Desktop/zam_ws/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs:/home/jason/Desktop/zam_ws/install/realsense2_description:/home/jason/Desktop/zam_ws/install/realsense2_camera:/home/jason/Desktop/zam_ws/install/launches:/home/jason/Desktop/zam_ws/install/autocar_nav:/home/jason/Desktop/zam_ws/install/autocar_msgs:/home/jason/Desktop/zam_ws/install/autocar_map:/home/jason/Desktop/zam_ws/install/autocar_gazebo:/home/jason/Desktop/zam_ws/install/autocar_description:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib:/home/jason/Desktop/zam_ws/install/realsense2_camera/lib:/home/jason/Desktop/zam_ws/install/autocar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/build/zam_tools:/home/jason/Desktop/zam_ws/install/zam_tools/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/build/keyboard_control:/home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/install/autocar_nav/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/install/autocar_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/realsense2_camera
+[5.494s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera)
+[5.498s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera' for CMake module files
+[5.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jason/Desktop/zam_ws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs:/home/jason/Desktop/zam_ws/install/realsense2_description:/home/jason/Desktop/zam_ws/install/realsense2_camera:/home/jason/Desktop/zam_ws/install/launches:/home/jason/Desktop/zam_ws/install/autocar_nav:/home/jason/Desktop/zam_ws/install/autocar_msgs:/home/jason/Desktop/zam_ws/install/autocar_map:/home/jason/Desktop/zam_ws/install/autocar_gazebo:/home/jason/Desktop/zam_ws/install/autocar_description:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib:/home/jason/Desktop/zam_ws/install/realsense2_camera/lib:/home/jason/Desktop/zam_ws/install/autocar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/jason/Desktop/zam_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/build/zam_tools:/home/jason/Desktop/zam_ws/install/zam_tools/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/build/keyboard_control:/home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/install/autocar_nav/lib/python3.8/site-packages:/home/jason/Desktop/zam_ws/install/autocar_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/realsense2_camera
+[5.499s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera' for CMake config files
+[5.499s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'cmake_prefix_path')
+[5.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.ps1'
+[5.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.dsv'
+[5.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.sh'
+[5.504s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera/lib'
+[5.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'ld_library_path_lib')
+[5.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.ps1'
+[5.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.dsv'
+[5.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.sh'
+[5.507s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera/bin'
+[5.507s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc'
+[5.508s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera/lib/python3.8/site-packages'
+[5.508s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera/bin'
+[5.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/realsense2_camera/share/realsense2_camera/package.ps1'
+[5.512s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jason/Desktop/zam_ws/install/realsense2_camera/share/realsense2_camera/package.dsv'
+[5.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/realsense2_camera/share/realsense2_camera/package.sh'
+[5.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/realsense2_camera/share/realsense2_camera/package.bash'
+[5.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/realsense2_camera/share/realsense2_camera/package.zsh'
+[5.514s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jason/Desktop/zam_ws/install/realsense2_camera/share/colcon-core/packages/realsense2_camera)
+[5.600s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera)
+[5.604s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera' for CMake module files
+[5.604s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera' for CMake config files
+[5.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'cmake_prefix_path')
+[5.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.ps1'
+[5.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.dsv'
+[5.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.sh'
+[5.608s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera/lib'
+[5.608s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'ld_library_path_lib')
+[5.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.ps1'
+[5.611s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.dsv'
+[5.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.sh'
+[5.612s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera/bin'
+[5.612s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc'
+[5.612s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera/lib/python3.8/site-packages'
+[5.612s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/realsense2_camera/bin'
+[5.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/realsense2_camera/share/realsense2_camera/package.ps1'
+[5.615s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jason/Desktop/zam_ws/install/realsense2_camera/share/realsense2_camera/package.dsv'
+[5.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/realsense2_camera/share/realsense2_camera/package.sh'
+[5.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/realsense2_camera/share/realsense2_camera/package.bash'
+[5.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/realsense2_camera/share/realsense2_camera/package.zsh'
+[5.618s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jason/Desktop/zam_ws/install/realsense2_camera/share/colcon-core/packages/realsense2_camera)
+[5.940s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_control', 'pythonpath_develop')
+[5.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/build/keyboard_control/share/keyboard_control/hook/pythonpath_develop.ps1'
+[5.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jason/Desktop/zam_ws/build/keyboard_control' returned '0': PYTHONPATH=/home/jason/Desktop/zam_ws/build/keyboard_control/prefix_override:/home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jason/Desktop/zam_ws/build/keyboard_control/build --no-deps install_data
+[5.946s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/build/keyboard_control/share/keyboard_control/hook/pythonpath_develop.dsv'
+[5.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/build/keyboard_control/share/keyboard_control/hook/pythonpath_develop.sh'
+[5.950s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/keyboard_control' for CMake module files
+[5.951s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/keyboard_control' for CMake config files
+[5.952s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/keyboard_control/lib'
+[5.952s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/keyboard_control/bin'
+[5.952s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/keyboard_control/lib/pkgconfig/keyboard_control.pc'
+[5.952s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages'
+[5.953s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_control', 'pythonpath')
+[5.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/keyboard_control/share/keyboard_control/hook/pythonpath.ps1'
+[5.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jason/Desktop/zam_ws/install/keyboard_control/share/keyboard_control/hook/pythonpath.dsv'
+[5.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jason/Desktop/zam_ws/install/keyboard_control/share/keyboard_control/hook/pythonpath.sh'
+[5.957s] Level 1:colcon.colcon_core.environment:checking '/home/jason/Desktop/zam_ws/install/keyboard_control/bin'
+[5.958s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keyboard_control)
+[5.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/keyboard_control/share/keyboard_control/package.ps1'
+[5.961s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jason/Desktop/zam_ws/install/keyboard_control/share/keyboard_control/package.dsv'
+[5.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/keyboard_control/share/keyboard_control/package.sh'
+[5.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/keyboard_control/share/keyboard_control/package.bash'
+[5.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/Desktop/zam_ws/install/keyboard_control/share/keyboard_control/package.zsh'
+[5.963s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jason/Desktop/zam_ws/install/keyboard_control/share/colcon-core/packages/keyboard_control)
+[5.964s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.964s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.964s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.965s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.978s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.978s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.978s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.002s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.005s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jason/Desktop/zam_ws/install/local_setup.ps1'
+[6.007s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jason/Desktop/zam_ws/install/_local_setup_util_ps1.py'
+[6.009s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jason/Desktop/zam_ws/install/setup.ps1'
+[6.012s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jason/Desktop/zam_ws/install/local_setup.sh'
+[6.013s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jason/Desktop/zam_ws/install/_local_setup_util_sh.py'
+[6.014s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jason/Desktop/zam_ws/install/setup.sh'
+[6.016s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jason/Desktop/zam_ws/install/local_setup.bash'
+[6.016s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jason/Desktop/zam_ws/install/setup.bash'
+[6.020s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jason/Desktop/zam_ws/install/local_setup.zsh'
+[6.021s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jason/Desktop/zam_ws/install/setup.zsh'

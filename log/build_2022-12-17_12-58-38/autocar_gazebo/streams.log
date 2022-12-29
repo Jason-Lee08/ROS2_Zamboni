@@ -1,0 +1,67 @@
+[0.073s] Invoking command in '/home/jason/Desktop/zam_ws/build/autocar_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jason/Desktop/zam_ws/src/AutoCarROS2/autocar_gazebo -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/zam_ws/install/autocar_gazebo
+[0.205s] -- The C compiler identification is GNU 9.4.0
+[0.312s] -- The CXX compiler identification is GNU 9.4.0
+[0.321s] -- Check for working C compiler: /usr/bin/cc
+[0.469s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.470s] -- Detecting C compiler ABI info
+[0.656s] -- Detecting C compiler ABI info - done
+[0.686s] -- Detecting C compile features
+[0.687s] -- Detecting C compile features - done
+[0.687s] -- Check for working CXX compiler: /usr/bin/c++
+[0.861s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.862s] -- Detecting CXX compiler ABI info
+[1.161s] -- Detecting CXX compiler ABI info - done
+[1.190s] -- Detecting CXX compile features
+[1.191s] -- Detecting CXX compile features - done
+[1.196s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.254s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.254s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.739s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.923s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.930s] -- Added test 'lint_cmake' to check CMake code style
+[1.934s] -- Added test 'xmllint' to check XML markup files
+[1.938s] -- Configuring done
+[1.942s] -- Generating done
+[1.945s] -- Build files have been written to: /home/jason/Desktop/zam_ws/build/autocar_gazebo
+[1.954s] Invoked command in '/home/jason/Desktop/zam_ws/build/autocar_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jason/Desktop/zam_ws/src/AutoCarROS2/autocar_gazebo -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/zam_ws/install/autocar_gazebo
+[1.956s] Invoking command in '/home/jason/Desktop/zam_ws/build/autocar_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/autocar_gazebo -- -j4 -l4
+[2.064s] Invoked command in '/home/jason/Desktop/zam_ws/build/autocar_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/autocar_gazebo -- -j4 -l4
+[2.129s] Invoking command in '/home/jason/Desktop/zam_ws/build/autocar_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/autocar_gazebo
+[2.146s] -- Install configuration: ""
+[2.147s] -- Installing: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/worlds
+[2.147s] -- Installing: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/autocar_city.world
+[2.147s] -- Installing: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/autocar.world
+[2.148s] -- Installing: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/empty.world
+[2.149s] -- Installing: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/road.world
+[2.149s] -- Installing: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/autocar_spawn.world
+[2.149s] -- Installing: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/populated_road.world
+[2.149s] -- Up-to-date: /home/jason/.gazebo/models/autocar
+[2.149s] -- Installing: /home/jason/.gazebo/models/autocar/model.sdf
+[2.149s] -- Up-to-date: /home/jason/.gazebo/models/autocar/meshes
+[2.150s] -- Installing: /home/jason/.gazebo/models/autocar/meshes/fl_1.stl
+[2.150s] -- Installing: /home/jason/.gazebo/models/autocar/meshes/hokuyo.dae
+[2.150s] -- Installing: /home/jason/.gazebo/models/autocar/meshes/fr_1.stl
+[2.150s] -- Installing: /home/jason/.gazebo/models/autocar/meshes/lds.dae
+[2.163s] -- Installing: /home/jason/.gazebo/models/autocar/meshes/tire.dae
+[2.164s] -- Installing: /home/jason/.gazebo/models/autocar/meshes/bl_1.stl
+[2.164s] -- Installing: /home/jason/.gazebo/models/autocar/meshes/spoiler.stl
+[2.164s] -- Installing: /home/jason/.gazebo/models/autocar/meshes/br_1.stl
+[2.164s] -- Installing: /home/jason/.gazebo/models/autocar/meshes/burger_base.dae
+[2.164s] -- Installing: /home/jason/.gazebo/models/autocar/meshes/chassis_link.stl
+[2.164s] -- Installing: /home/jason/.gazebo/models/autocar/model.config
+[2.164s] -- Installing: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/ament_index/resource_index/package_run_dependencies/autocar_gazebo
+[2.164s] -- Installing: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/ament_index/resource_index/parent_prefix_path/autocar_gazebo
+[2.165s] -- Installing: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/environment/ament_prefix_path.sh
+[2.165s] -- Installing: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/environment/ament_prefix_path.dsv
+[2.165s] -- Installing: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/environment/path.sh
+[2.165s] -- Installing: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/environment/path.dsv
+[2.165s] -- Installing: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/local_setup.bash
+[2.165s] -- Installing: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/local_setup.sh
+[2.165s] -- Installing: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/local_setup.zsh
+[2.165s] -- Installing: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/local_setup.dsv
+[2.166s] -- Installing: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/package.dsv
+[2.166s] -- Installing: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/ament_index/resource_index/packages/autocar_gazebo
+[2.166s] -- Installing: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/cmake/autocar_gazeboConfig.cmake
+[2.166s] -- Installing: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/cmake/autocar_gazeboConfig-version.cmake
+[2.166s] -- Installing: /home/jason/Desktop/zam_ws/install/autocar_gazebo/share/autocar_gazebo/package.xml
+[2.166s] Invoked command in '/home/jason/Desktop/zam_ws/build/autocar_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/autocar_gazebo

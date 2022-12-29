@@ -1,0 +1,19 @@
+[100%] Built target bof
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_map/lib/autocar_map/bof
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_map/share/ament_index/resource_index/package_run_dependencies/autocar_map
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_map/share/ament_index/resource_index/parent_prefix_path/autocar_map
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/environment/ament_prefix_path.sh
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/environment/path.sh
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/environment/path.dsv
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/local_setup.bash
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/local_setup.sh
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/local_setup.zsh
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/local_setup.dsv
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/package.dsv
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_map/share/ament_index/resource_index/packages/autocar_map
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/cmake/autocar_mapConfig.cmake
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/cmake/autocar_mapConfig-version.cmake
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/package.xml

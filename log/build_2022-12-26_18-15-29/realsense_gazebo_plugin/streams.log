@@ -1,0 +1,35 @@
+[0.046s] Invoking command in '/home/jason/Desktop/zam_ws/build/realsense_gazebo_plugin': /usr/bin/cmake /home/jason/Desktop/zam_ws/src/realsense_gazebo_plugin -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin
+[0.428s] -- The C compiler identification is GNU 9.4.0
+[0.941s] -- The CXX compiler identification is GNU 9.4.0
+[1.021s] -- Check for working C compiler: /usr/bin/cc
+[1.282s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.291s] -- Detecting C compiler ABI info
+[1.529s] -- Detecting C compiler ABI info - done
+[1.602s] -- Detecting C compile features
+[1.604s] -- Detecting C compile features - done
+[1.637s] -- Check for working CXX compiler: /usr/bin/c++
+[2.005s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.005s] -- Detecting CXX compiler ABI info
+[2.330s] -- Detecting CXX compiler ABI info - done
+[2.430s] -- Detecting CXX compile features
+[2.430s] -- Detecting CXX compile features - done
+[2.474s] CMake Error at CMakeLists.txt:5 (find_package):
+[2.474s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.475s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.475s]   CMake did not find one.
+[2.475s] 
+[2.475s]   Could not find a package configuration file provided by "catkin" with any
+[2.475s]   of the following names:
+[2.475s] 
+[2.476s]     catkinConfig.cmake
+[2.476s]     catkin-config.cmake
+[2.476s] 
+[2.476s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.476s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.476s]   provides a separate development package or SDK, be sure it has been
+[2.476s]   installed.
+[2.477s] 
+[2.477s] 
+[2.477s] -- Configuring incomplete, errors occurred!
+[2.477s] See also "/home/jason/Desktop/zam_ws/build/realsense_gazebo_plugin/CMakeFiles/CMakeOutput.log".
+[2.485s] Invoked command in '/home/jason/Desktop/zam_ws/build/realsense_gazebo_plugin' returned '1': /usr/bin/cmake /home/jason/Desktop/zam_ws/src/realsense_gazebo_plugin -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/zam_ws/install/realsense_gazebo_plugin

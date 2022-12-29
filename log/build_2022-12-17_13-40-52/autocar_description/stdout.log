@@ -1,0 +1,28 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/bl_1.stl
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/br_1.stl
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/chassis_link.stl
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/fl_1.stl
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/fr_1.stl
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/hokuyo.dae
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/lds.dae
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/spoiler.stl
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//meshes/tire.dae
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//urdf/autocar.xacro
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description//rviz/view.rviz
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/ament_index/resource_index/package_run_dependencies/autocar_description
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/ament_index/resource_index/parent_prefix_path/autocar_description
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/environment/path.sh
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/environment/path.dsv
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/local_setup.bash
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/local_setup.sh
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/local_setup.zsh
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/local_setup.dsv
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/package.dsv
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/ament_index/resource_index/packages/autocar_description
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/cmake/autocar_descriptionConfig.cmake
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/cmake/autocar_descriptionConfig-version.cmake
+-- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_description/share/autocar_description/package.xml

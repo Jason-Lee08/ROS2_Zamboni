@@ -1,0 +1,41 @@
+[0.103s] Invoking command in '/home/jason/Desktop/zam_ws/build/autocar_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jason/Desktop/zam_ws/src/AutoCarROS2/autocar_map -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/zam_ws/install/autocar_map
+[0.156s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.236s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.684s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.695s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.756s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.764s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.072s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.265s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.273s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.731s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.023s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[2.041s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[2.881s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.250s] -- Configuring done
+[3.279s] -- Generating done
+[3.282s] -- Build files have been written to: /home/jason/Desktop/zam_ws/build/autocar_map
+[3.301s] Invoked command in '/home/jason/Desktop/zam_ws/build/autocar_map' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jason/Desktop/zam_ws/src/AutoCarROS2/autocar_map -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jason/Desktop/zam_ws/install/autocar_map
+[3.303s] Invoking command in '/home/jason/Desktop/zam_ws/build/autocar_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/autocar_map -- -j4 -l4
+[3.607s] [100%] Built target bof
+[3.676s] Invoked command in '/home/jason/Desktop/zam_ws/build/autocar_map' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/autocar_map -- -j4 -l4
+[3.936s] Invoking command in '/home/jason/Desktop/zam_ws/build/autocar_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/autocar_map
+[3.956s] -- Install configuration: ""
+[3.957s] -- Execute custom install script
+[3.958s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_map/lib/autocar_map/bof
+[3.958s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_map/share/ament_index/resource_index/package_run_dependencies/autocar_map
+[3.959s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_map/share/ament_index/resource_index/parent_prefix_path/autocar_map
+[3.959s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/environment/ament_prefix_path.sh
+[3.960s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/environment/ament_prefix_path.dsv
+[3.960s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/environment/path.sh
+[3.961s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/environment/path.dsv
+[3.961s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/local_setup.bash
+[3.962s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/local_setup.sh
+[3.962s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/local_setup.zsh
+[3.963s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/local_setup.dsv
+[3.963s] -- Symlinking: /home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/package.dsv
+[3.979s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_map/share/ament_index/resource_index/packages/autocar_map
+[3.979s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/cmake/autocar_mapConfig.cmake
+[3.980s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/cmake/autocar_mapConfig-version.cmake
+[3.980s] -- Up-to-date symlink: /home/jason/Desktop/zam_ws/install/autocar_map/share/autocar_map/package.xml
+[3.992s] Invoked command in '/home/jason/Desktop/zam_ws/build/autocar_map' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jason/Desktop/zam_ws/build/autocar_map

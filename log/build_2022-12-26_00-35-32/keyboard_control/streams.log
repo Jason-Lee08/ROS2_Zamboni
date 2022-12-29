@@ -1,0 +1,17 @@
+[1.453s] Invoking command in '/home/jason/Desktop/zam_ws/build/keyboard_control': PYTHONPATH=/home/jason/Desktop/zam_ws/build/keyboard_control/prefix_override:/home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jason/Desktop/zam_ws/build/keyboard_control/build --no-deps install_data
+[2.058s] running develop
+[2.279s] running egg_info
+[2.279s] writing keyboard_control.egg-info/PKG-INFO
+[2.280s] writing dependency_links to keyboard_control.egg-info/dependency_links.txt
+[2.281s] writing entry points to keyboard_control.egg-info/entry_points.txt
+[2.281s] writing requirements to keyboard_control.egg-info/requires.txt
+[2.281s] writing top-level names to keyboard_control.egg-info/top_level.txt
+[2.325s] reading manifest file 'keyboard_control.egg-info/SOURCES.txt'
+[2.326s] writing manifest file 'keyboard_control.egg-info/SOURCES.txt'
+[2.362s] running build_ext
+[2.363s] Creating /home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages/keyboard-control.egg-link (link to .)
+[2.365s] Installing keyboard script to /home/jason/Desktop/zam_ws/install/keyboard_control/lib/keyboard_control
+[2.365s] 
+[2.365s] Installed /home/jason/Desktop/zam_ws/build/keyboard_control
+[2.365s] running install_data
+[2.402s] Invoked command in '/home/jason/Desktop/zam_ws/build/keyboard_control' returned '0': PYTHONPATH=/home/jason/Desktop/zam_ws/build/keyboard_control/prefix_override:/home/jason/Desktop/zam_ws/install/keyboard_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jason/Desktop/zam_ws/build/keyboard_control/build --no-deps install_data

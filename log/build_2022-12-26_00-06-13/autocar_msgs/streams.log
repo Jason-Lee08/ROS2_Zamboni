@@ -1,0 +1,11 @@
+[0.056s] Invoking command in '/home/jason/Desktop/zam_ws/build/autocar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/autocar_msgs -- -j4 -l4
+[0.260s] [ 13%] Built target autocar_msgs__rosidl_generator_c
+[0.276s] [ 16%] Built target autocar_msgs__cpp
+[0.384s] [ 30%] Built target autocar_msgs__rosidl_typesupport_c
+[0.413s] [ 44%] Built target autocar_msgs__rosidl_typesupport_introspection_c
+[0.425s] [ 58%] Built target autocar_msgs__rosidl_typesupport_cpp
+[0.445s] [ 72%] Built target autocar_msgs__rosidl_typesupport_introspection_cpp
+[0.494s] [ 86%] Built target autocar_msgs__rosidl_typesupport_fastrtps_cpp
+[0.551s] [100%] Built target autocar_msgs__rosidl_typesupport_fastrtps_c
+[0.599s] [100%] Built target autocar_msgs
+[0.637s] Invoked command in '/home/jason/Desktop/zam_ws/build/autocar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jason/Desktop/zam_ws/install/zam_tools:/home/jason/Desktop/zam_ws/install/keyboard_control:/opt/ros/foxy /usr/bin/cmake --build /home/jason/Desktop/zam_ws/build/autocar_msgs -- -j4 -l4
