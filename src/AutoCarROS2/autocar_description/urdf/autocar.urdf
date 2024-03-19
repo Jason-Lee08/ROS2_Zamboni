@@ -158,16 +158,16 @@
       <inertia ixx="1997.8579" ixy="-3e-05" ixz="-1e-06" iyy="442.7692" iyz="62.5206" izz="2238.0524"/>
     </inertial>
     <visual>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="0 0 0" xyz="0 0 -0.4"/>
       <geometry>
-        <mesh filename="package://autocar_description/meshes/zamboni2.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://autocar_description/meshes/zamboni_no_cond.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://autocar_description/meshes/zamboni2.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://autocar_description/meshes/zamboni_no_cond.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>

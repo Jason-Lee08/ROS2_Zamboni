@@ -74,7 +74,7 @@
 
     <link name='chassis_link'>
       <inertial>
-        <pose>1e-06 0 0 0 -0 0</pose>
+        <pose>1e-06 0 0 0 0 0</pose>
         <mass>1580</mass>
         <inertia>
           <ixx>1997.86</ixx>

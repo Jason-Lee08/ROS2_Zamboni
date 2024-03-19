@@ -14,9 +14,8 @@ def generate_launch_description():
     descpkg = 'autocar_description'
     mappkg = 'autocar_map'
 
-    world = os.path.join(get_package_share_directory(gzpkg), 'worlds', 'autocar.world')
-    world = "/opt/ros/foxy/share/gazebo_plugins/worlds/gazebo_ros_ackermann_drive_demo.world"
-    #urdf = os.path.join(get_package_share_directory(descpkg),'urdf', 'autocar.xacro')
+    world = os.path.join(get_package_share_directory(gzpkg), 'worlds', 'gazebo_ros_ackermann_drive_demo.world')
+    urdf = os.path.join(get_package_share_directory(descpkg),'urdf', 'autocar.xacro')
     urdf = "/home/jason/.gazebo/models/prius_hybrid/model.urdf"
     rviz = os.path.join(get_package_share_directory(descpkg), 'rviz', 'view.rviz')
     

@@ -53,6 +53,7 @@ install(DIRECTORY
 
 install(DIRECTORY
   models/autocar
+  models/ice_rink
   DESTINATION ${GAZEBO_MODEL_PATH}
 )
 

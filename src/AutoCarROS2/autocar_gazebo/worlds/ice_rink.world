@@ -381,6 +381,7 @@
           <pose relative_to='base_link'>0 2.34 0.72 0 0 1.5708</pose>
           
           <always_on>1</always_on>
+          <visualize>true</visualize>
           <update_rate>15</update_rate>
           <camera name="depth_camera">
             <horizontal_fov>1.11701</horizontal_fov><!--69.4 deg = 1.211258501 rad -->
@@ -392,7 +393,7 @@
             </image>
             <clip>
                 <near>0.1</near>
-                <far>10</far>
+                <far>16</far>
             </clip>
             <noise>
                 <type>gaussian</type>
@@ -404,8 +405,33 @@
             <camera_name>depth_camera</camera_name>
             <frame_name>realsense_link</frame_name>
             <hack_baseline>0</hack_baseline>
-            <max_depth>5.0</max_depth>
+            <max_depth>16.0</max_depth>
             <min_depth>0.001</min_depth>
+          </plugin>
+        </sensor>
+
+        <sensor name="normal_camera" type="camera">
+          <pose relative_to='base_link'>0 2.34 0.72 0 0 1.5708</pose>
+          
+          <!-- <always_on>1</always_on> -->
+          <visualize>true</visualize>
+          <update_rate>15</update_rate>
+          <camera name="normal_camera">
+            <horizontal_fov>1.11701</horizontal_fov><!--69.4 deg = 1.211258501 rad -->
+            <aspect_ratio>0.715585</aspect_ratio><!-- 16:9-->
+            <image>
+                <width>640</width>
+                <height>480</height>
+                <format>RGB_INT8</format>
+            </image>
+            <clip>
+                <near>0.1</near>
+                <far>20</far>
+            </clip>
+          </camera>
+          <plugin name="camera_plugin" filename="libgazebo_ros_camera.so">
+            <!-- <camera_name>normal_camera</camera_name> -->
+            <frame_name>normal_camera_frame</frame_name>
           </plugin>
         </sensor>
       </link>
